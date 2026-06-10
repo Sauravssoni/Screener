@@ -1,2 +1,0 @@
-candidate_id,rank,score,title,years_experience,location,core_ai_score,production_score,evaluation_score,python_score,career_score,behavior_score,location_score,risk_penalty,trap_flags,reasoning
-CAND_0000003,1,0.76,Recommendation Systems Engineer,6.0,Hyderabad,1.0,0.66,1.0,0.5,1.0,0.85,1.0,-0.0,0,"Matches core perfectly"
