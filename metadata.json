@@ -1,0 +1,6 @@
+{
+  "name": "RedrobRank Dashboard",
+  "description": "Technical dashboard and runtime interface for the RedrobRank evaluation engine.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

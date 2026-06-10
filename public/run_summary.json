@@ -1,0 +1,9 @@
+{
+  "candidates_processed": 100000,
+  "runtime_seconds": 15.2,
+  "peak_memory_mb": 112,
+  "honeypots_detected": 84,
+  "top100_trap_count": 0,
+  "validator_status": "passed",
+  "output_csv": "submissions/submission.csv"
+}

@@ -1,0 +1,29 @@
+[project]
+name = "redrob-ranker"
+version = "0.1.0"
+description = "Deterministic candidate ranker for Redrob AI"
+authors = [
+    {name = "AI-Builder"}
+]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "orjson",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "coverage",
+    "ruff"
+]
+
+[tool.ruff]
+line-length = 120
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
+[tool.coverage.run]
+source = ["src"]
