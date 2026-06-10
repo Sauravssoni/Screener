@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "redrob_ranker"
+version = "0.1.0"
+description = "Deterministic TalentOps Agent for Redrob AI Challenge"
+authors = [{ name = "Candidate" }]
+dependencies = ["psutil"]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "coverage",
+    "ruff",
+    "reportlab"
+]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+extend-exclude = [
+    "data",
+    "reports",
+    "submissions"
+]

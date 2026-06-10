@@ -1,17 +1,17 @@
-import json
 from src.redrob_ranker.scoring import score_candidates
 
+
 def main():
-    scored = score_candidates('candidates.jsonl')
-    top = sorted(scored, key=lambda x: x['final_score'], reverse=True)
-    
+    scored = score_candidates("candidates.jsonl")
+    top = sorted(scored, key=lambda x: x["final_score"], reverse=True)
+
     print("=== Runtime ===")
     print("Not actually 100k, just sample.")
-    
+
     print("\n=== Top 20 Candidates ===")
     for idx, c in enumerate(top[:20]):
-        print(f"Rank {idx+1}: {c['candidate_id']} | Score: {c['final_score']:.4f} | Reason: {c['reasoning']}")
-        
+        print(f"Rank {idx + 1}: {c['candidate_id']} | Score: {c['final_score']:.4f} | Reason: {c['reasoning']}")
+
     print("\n=== Feature Weights ===")
     print("Core AI: 0.35")
     print("Production: 0.18")
@@ -20,10 +20,11 @@ def main():
     print("Career Shape: 0.08")
     print("Behavioral: 0.07")
     print("Location: 0.04")
-    
+
     print("\n=== Honeypot Checks ===")
-    traps = sum(c['traps'] for c in top[:100])
+    traps = sum(c["traps"] for c in top[:100])
     print(f"Total Traps in Top 100: {traps}")
-    
-if __name__ == '__main__':
+
+
+if __name__ == "__main__":
     main()
