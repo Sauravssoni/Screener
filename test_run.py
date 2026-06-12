@@ -3,7 +3,7 @@ from src.redrob_ranker.scoring import score_candidates
 
 def main():
     scored = score_candidates("candidates.jsonl")
-    top = sorted(scored, key=lambda x: x["final_score"], reverse=True)
+    top = sorted(scored, key=lambda x: (-x["final_score"], x["candidate_id"]))
 
     print("=== Runtime ===")
     print("Not actually 100k, just sample.")

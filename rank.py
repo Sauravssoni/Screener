@@ -53,10 +53,13 @@ def main():
 
     scored_candidates = rank_candidates(candidates_with_context)
 
-    top_100 = sorted(scored_candidates, key=lambda x: x["final_score"], reverse=True)[:100]
+    scored_candidates = sorted(scored_candidates, key=lambda x: (-x["final_score"], x["candidate_id"]))
+    top_100 = scored_candidates[:100]
 
     for idx, c in enumerate(top_100):
         c["rank"] = idx + 1
+
+    os.makedirs("reports", exist_ok=True)
 
     generate_shortlist_artifacts(
         top_100,

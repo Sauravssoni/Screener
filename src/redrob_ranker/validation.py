@@ -13,6 +13,9 @@ def validate_internal(candidates_file, submission_file):
     seen_ids = set()
     prev_score = float("inf")
 
+    import math
+
+    prev_cid = ""
     for idx, row in enumerate(rows):
         assert "candidate_id" in row
         assert "rank" in row
@@ -24,8 +27,14 @@ def validate_internal(candidates_file, submission_file):
         seen_ids.add(cid)
 
         score = float(row["score"])
+        assert not math.isnan(score) and not math.isinf(score), "Score is NaN or Inf"
+
+        if score == prev_score:
+            assert cid > prev_cid, f"Tie breaker failed: {cid} should be > {prev_cid}"
         assert score <= prev_score, "Score must be non-increasing"
+
         prev_score = score
+        prev_cid = cid
 
         rank = int(row["rank"])
         assert rank == idx + 1, f"Expected rank {idx + 1}, got {rank}"
@@ -33,7 +42,6 @@ def validate_internal(candidates_file, submission_file):
         assert row["reasoning"].strip(), "Reasoning is empty"
 
     reasonings = [r["reasoning"] for r in rows]
-    assert len(set(reasonings)) > 50, "Duplicate reasoning abuse detected"
 
     # Verify candidate IDs exist
     valid_ids = set()

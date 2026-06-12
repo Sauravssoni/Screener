@@ -10,7 +10,7 @@ def main():
     parser.add_argument("submission_positional", nargs="?", default=None)
 
     args = parser.parse_args()
-    
+
     sub_file = args.submission or args.submission_positional
     if not sub_file:
         parser.error("the following arguments are required: submission")

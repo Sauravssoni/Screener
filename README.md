@@ -17,10 +17,11 @@ It avoids language model dependencies by using a rule-based weighted metric and 
 
 ```bash
 # Rank candidates
-python rank.py --candidates candidates.jsonl --out submission.csv
+python3 rank.py --candidates data/candidates.jsonl --out submissions/submission.csv
 
 # Validate the output
-python validate_submission.py --candidates candidates.jsonl --submission submission.csv
+python3 validate_submission.py submissions/submission.csv
+python3 -m src.redrob_ranker.validation --candidates data/candidates.jsonl --submission submissions/submission.csv
 ```
 
 ## Running Tests

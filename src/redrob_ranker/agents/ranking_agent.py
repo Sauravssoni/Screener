@@ -2,27 +2,42 @@ from src.redrob_ranker.reasoning import generate_reasoning
 from collections import defaultdict
 
 
-def limit_diversity(scored, max_per_cluster=100):
+def limit_diversity(scored):
     """
     Limits the number of candidates with near-identical template profiles.
-    Used for diversity checking in top 20.
+    max 3 same cluster in top 10, max 8 in top 50, max 15 in top 100.
+    Since we must maintain non-increasing score order, we apply a tiny
+    penalty to final_score for candidates that exceed the cluster limits.
     """
-    filtered = []
     cluster_counts = defaultdict(int)
 
-    for c in scored:
+    # Sort first by raw score to process in order of merit
+    scored = sorted(scored, key=lambda x: (-x["final_score"], x["candidate_id"]))
+
+    adjusted = []
+    for rank, c in enumerate(scored):
         title = c.get("profile", {}).get("current_title", "Unknown")
-        # simple cluster key: title
-        cluster_key = title
+        primary_skill = c.get("features", {}).get("primary_skill_cluster", "Unknown")
+        cluster_key = f"{title}_{primary_skill}"
 
-        if cluster_counts[cluster_key] < max_per_cluster:
-            filtered.append(c)
-            cluster_counts[cluster_key] += 1
+        count = cluster_counts[cluster_key]
+        penalty = 0.0
 
-        if len(filtered) >= 100:
-            break
+        # Check thresholds based on current position
+        if rank < 10 and count >= 3:
+            penalty = 0.0001 + (count * 0.00001)
+        elif rank < 50 and count >= 8:
+            penalty = 0.0001 + (count * 0.00001)
+        elif rank < 100 and count >= 15:
+            penalty = 0.0001 + (count * 0.00001)
 
-    return filtered
+        c["final_score"] = max(0.0, c["final_score"] - penalty)
+        cluster_counts[cluster_key] += 1
+        adjusted.append(c)
+
+    # Re-sort using the adjusted score
+    adjusted = sorted(adjusted, key=lambda x: (-x["final_score"], x["candidate_id"]))
+    return adjusted
 
 
 def rank_candidates(candidates_with_context):
@@ -70,11 +85,8 @@ def rank_candidates(candidates_with_context):
         candidate["traps"] = traps
         candidate["evidence"] = evidence
 
-        candidate["reasoning"] = generate_reasoning(candidate, features, traps)
+        candidate["reasoning"] = generate_reasoning(candidate, features, traps, evidence)
 
         scored.append(candidate)
 
-    # Apply diversity limiter like the baseline did
-    # Need to sort first, then limit
-    scored = sorted(scored, key=lambda x: (x["final_score"], x["candidate_id"]), reverse=True)
-    return limit_diversity(scored, max_per_cluster=100)
+    return limit_diversity(scored)
