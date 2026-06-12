@@ -1,31 +1,45 @@
-# Redrob Ranker
+# RedrobRank Agentic Recruiter OS
 
-deterministic and explainable ranking engine for the Redrob AI Track 1 challenge.
+A deterministic and explainable ranking engine for the Redrob AI Track 1 candidate ranking challenge.
 
 ## Overview
+This repository ranks candidate profiles based on core AI retrieval skills, production shipping experience, evaluation framework knowledge, Python architectures, and behavioral metrics. 
 
-This repository ranks candidate JSON files scoring profiles based on:
-1. Core AI retrieval skills
-2. Production shipping experience
-3. Evaluation framework knowledge
-4. Python and System architectures
-5. Redrob behavioral metrics (activity, responses, location fit)
+**Synthetic Cluster Note:** The benchmark contains repeated high-fit candidate templates, so top candidates may share identical score/reasoning; deterministic `candidate_id` tie-break is used.
 
-It avoids language model dependencies by using a rule-based weighted metric and deterministic parsers, ensuring execution under the 5-minute CPU constraint.
+## Final Deliverables
+* `submissions/submission.csv` (The ranked output of exactly 100 candidates)
+* `docs/RedrobRank_Methodology.pdf` (The methodology and system architecture report)
+
+*Note: No raw dataset is included in this repository to protect data privacy.*
+
+## Security & Architecture
+* **CPU-only:** Executes fully locally.
+* **No external LLM/API calls:** Secure and offline.
+* **No secrets/API keys:** None required or tracked.
+* **No raw dataset committed:** Protected information remains strictly local.
+* **Static Dashboard:** The dashboard is a static/local report viewer only and exposes no backend API. (Express is used strictly by Vite dev middleware for local preview of generated JSONs).
 
 ## Run Instructions
 
+### Rank Candidates
 ```bash
-# Rank candidates
 python3 rank.py --candidates data/candidates.jsonl --out submissions/submission.csv
+```
 
-# Validate the output
+### Validate Submission
+```bash
 python3 validate_submission.py submissions/submission.csv
 python3 -m src.redrob_ranker.validation --candidates data/candidates.jsonl --submission submissions/submission.csv
+```
+
+### Run Local Dashboard Viewer
+```bash
+npm install
+npm run dev
 ```
 
 ## Running Tests
 ```bash
 pytest
 ```
-# Screener
