@@ -10,15 +10,19 @@ def generate_reasoning(candidate, features, traps, evidence=None):
     loc_str = f" in {loc}" if loc else ""
     py_count = features.get("python_systems_count", 0)
     comp = features.get("profile_completeness", 0)
-    
+
     if features["core_ai_count"] > 0:
         skills_str = ""
         if evidence and "skills_found" in evidence and evidence["skills_found"]:
             skills_str = f" (e.g. {', '.join(evidence['skills_found'])})"
-        parts.append(f"Strong AI search fit: profile evidence includes {features['core_ai_count']} core AI terms{skills_str}{loc_str} with {yoe} YOE, {py_count} python systems, and {comp:.2f} completeness for {title}.")
-        
+        parts.append(
+            f"Strong AI search fit: profile evidence includes {features['core_ai_count']} core AI terms{skills_str}{loc_str} with {yoe} YOE, {py_count} python systems, and {comp:.2f} completeness for {title}."
+        )
+
     if features["production_count"] > 0:
-        parts.append(f"Shows production indicators ({features['production_count']} terms) around deployed retrieval and monitoring.")
+        parts.append(
+            f"Shows production indicators ({features['production_count']} terms) around deployed retrieval and monitoring."
+        )
 
     if features["evaluation_count"] > 0:
         parts.append("Has evaluation expertise (e.g. NDCG, MAP, offline benchmark).")
@@ -29,7 +33,7 @@ def generate_reasoning(candidate, features, traps, evidence=None):
     if not parts:
         company = prof.get("current_company", "a company")
         parts.append(f"Candidate {title} at {company} fits baseline criteria with {comp:.2f} completeness.")
-        
+
     if traps > 0:
         parts.append(f"Note: Flagged {traps} risk(s).")
 

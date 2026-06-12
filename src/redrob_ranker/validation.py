@@ -41,8 +41,6 @@ def validate_internal(candidates_file, submission_file):
 
         assert row["reasoning"].strip(), "Reasoning is empty"
 
-    reasonings = [r["reasoning"] for r in rows]
-
     # Verify candidate IDs exist
     valid_ids = set()
     with open(candidates_file, "r", encoding="utf-8") as f:
