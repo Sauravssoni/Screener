@@ -36,3 +36,9 @@ generate_pdf*.py
 
 !submissions/submission.csv
 !docs/RedrobRank_Methodology.pdf
+
+!sample_candidates.jsonl
+!docs/RedrobRank_Official_Submission_Deck.pdf
+!reports/final_ranking_audit.md
+!reports/security_audit_summary.md
+!reports/final_quality_audit.md
