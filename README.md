@@ -1,72 +1,16 @@
 # RedrobRank Agentic Recruiter OS
 
-Deterministic, CPU-only, no-LLM candidate discovery engine for the Redrob Data & AI Challenge: Intelligent Candidate Discovery.
+“An offline, deterministic TalentOps ranking engine that converts 100,000 Redrob candidate profiles into a grounded Top-100 Senior AI Engineer shortlist.”
 
-![CPU-only](https://img.shields.io/badge/Architecture-CPU--only-blue) | ![No external APIs](https://img.shields.io/badge/Network-No%20external%20APIs-success) | ![No raw dataset committed](https://img.shields.io/badge/Security-No%20raw%20dataset%20committed-green) | ![Validator compliant](https://img.shields.io/badge/Validation-Compliant-brightgreen) | ![Forensic audit enabled](https://img.shields.io/badge/Audit-Forensic%20enabled-blueviolet) | ![Local dashboard](https://img.shields.io/badge/UI-Local%20dashboard-orange) | ![Streamlit sandbox](https://img.shields.io/badge/Demo-Streamlit%20sandbox-yellow)
+**Team ID:** Syntheon
+**Team Name:** Syntheon
+**Team Leader:** Saurav Soni
+**Challenge:** Redrob / India.Runs Data & AI Challenge — Intelligent Candidate Discovery
+**Output:** Top-100 candidate ranking CSV
 
-## Final Submission Artifacts
+---
 
-| Artifact                     | Path                                         |
-| ---------------------------- | -------------------------------------------- |
-| Ranked CSV                   | `submissions/submission.csv`                   |
-| Official deck PDF            | `docs/RedrobRank_Official_Submission_Deck.pdf` |
-| Supplemental methodology PDF | `docs/RedrobRank_Methodology.pdf`              |
-| Forensic audit report        | `reports/final_ranking_audit.md`               |
-| Security audit summary       | `reports/security_audit_summary.md`            |
-| Quality audit summary        | `reports/final_quality_audit.md`               |
-| Local dashboard              | `src/` + `npm run dev`                           |
-| Sample sandbox               | `sandbox_app.py` + `sample_candidates.jsonl`     |
-
-## Why RedrobRank is different
-
-* **Not keyword-only**: Uses semantic TF-IDF weights and multi-stage filtering.
-* **Not LLM/API-based**: Avoids slow, expensive, and unpredictable black-box LLM calls.
-* **Deterministic and reproducible**: The same input always produces the exact same output.
-* **Grounded explanations only**: Zero observed hallucination failures in forensic audit. Every reason is strictly traceable to actual data.
-* **Hard penalties for non-fit roles**: Aggressively filters out honeypots, generic managers, and customer support.
-* **Forensic audit prevents title/YOE/location hallucinations**: A custom script fails CI if justifications lie.
-* **CPU-only and data-private**: Fully local execution ensures enterprise data security.
-
-## Architecture
-
-```text
-candidate JSONL
-→ stream reader
-→ feature extraction
-→ TF-IDF lexical recall
-→ structured scoring
-→ risk filters
-→ RRF fusion
-→ grounded reasoning
-→ validator-safe CSV
-→ reports/dashboard/sandbox
-```
-
-## Scoring Methodology
-
-* **AI/retrieval/ranking/LLM evidence**: Strongest weight for semantic search, vector databases, and RAG.
-* **Skill trust**: Verification of listed skills against actual profile summaries.
-* **Career relevance**: Prioritizes titles explicitly matching Senior AI/ML roles.
-* **Production/MLOps**: Rewards keywords proving the candidate ships at scale (Kubernetes, latency, deployment).
-* **Evaluation/experimentation**: Rewards knowledge of ML metrics (NDCG, MRR, A/B testing).
-* **Behavioral availability**: Factors in GitHub activity, open-to-work flags, and Redrob response rates.
-* **Location/relocation**: Adjusts scores based on preferred geographies.
-* **Risk/honeypot penalties**: Disqualifies candidates with <3 YOE, irrelevant titles, or keyword stuffing.
-
-## Top 10 Preview
-
-1. CAND_0018499 — Senior Machine Learning Engineer — 7.2 YOE — Noida — score 0.0310
-2. CAND_0005260 — Senior NLP Engineer — 5.2 YOE — Chennai — score 0.0300
-3. CAND_0046525 — Senior Machine Learning Engineer — 6.1 YOE — Pune — score 0.0281
-4. CAND_0081846 — Lead AI Engineer — 6.7 YOE — Jaipur — score 0.0267
-5. CAND_0042506 — Search Engineer — 4.2 YOE — Mumbai — score 0.0262
-6. CAND_0041669 — Recommendation Systems Engineer — 8.0 YOE — Noida — score 0.0253
-7. CAND_0007460 — AI Engineer — 4.7 YOE — Pune — score 0.0247
-8. CAND_0092278 — Senior NLP Engineer — 6.8 YOE — Pune — score 0.0246
-9. CAND_0026532 — Recommendation Systems Engineer — 4.8 YOE — Chennai — score 0.0233
-10. CAND_0086022 — Senior Applied Scientist — 5.3 YOE — Kolkata — score 0.0229
-
-## Quickstart
+## Evaluator Quickstart
 
 ```bash
 python3 -m venv .venv
@@ -74,31 +18,131 @@ source .venv/bin/activate
 pip install -r requirements.txt
 
 python3 rank.py --candidates data/candidates.jsonl --out submissions/submission.csv
-
 python3 validate_submission.py submissions/submission.csv
 python3 -m src.redrob_ranker.validation --candidates data/candidates.jsonl --submission submissions/submission.csv
 python3 scripts/forensic_audit.py --csv submissions/submission.csv --jsonl data/candidates.jsonl --out reports/final_ranking_audit.md
 
 npm install
-npm run dev         # local-only dashboard
-npm run dev:network # only for intentional LAN demo
-
+npm run dev
 streamlit run sandbox_app.py
 ```
 
-## Security / Privacy
+*Note: Place the private challenge dataset at `data/candidates.jsonl`. The raw dataset is intentionally not committed to protect PII.*
 
-* No raw candidate dataset in GitHub
-* No external LLM/API calls
-* No secrets
-* Local CPU-only processing
-* Dashboard is static/local report viewer
-* Sandbox is limited sample upload only
+---
 
-## Audit Results
+## Why this beats generic rankers
 
-* **Unique scores:** 74
-* **Unique reasonings:** 100
-* **Hallucination/rule failures:** 0
-* **Quality report path:** `reports/final_quality_audit.md`
-* **Security report path:** `reports/security_audit_summary.md`
+* **Not keyword-only**: We parse structured YOE, titles, and semantic overlap, not just raw text matching.
+* **Not API/LLM dependent**: LLMs hallucinate fit and cost thousands of dollars for 100K profiles. We run locally on CPU in seconds.
+* **Deterministic and reproducible**: The exact same input always produces the exact same output.
+* **Checks title/YOE/location grounding**: Firm guardrails drop unqualified profiles before semantic scoring.
+* **Suppresses non-fit roles and keyword stuffing**: Generative honeypot penalties reduce the score of generic developers who sprinkle "AI" in their resumes.
+* **Produces validator-safe CSV**: Built-in scripts guarantee the 5MB, 100-row format.
+* **Local dashboard reads deterministic `/reports` artifacts**: Front-end works strictly offline.
+* **Streamlit sandbox**: Lets evaluators test small samples without exposing the 100K dataset.
+
+---
+
+## Architecture
+
+Candidate JSONL
+→ Streaming loader
+→ Evidence extraction
+→ TF-IDF lexical recall
+→ Structured fit scoring
+→ Risk / honeypot penalties
+→ RRF fusion
+→ Grounded reasoning
+→ CSV validator
+→ Forensic audit
+→ Dashboard / sandbox
+
+---
+
+## Ranking Signals
+
+| Signal | What it captures | Why it matters |
+|---|---|---|
+| AI/retrieval/ranking/LLM evidence | Mentions of RAG, Transformers, PyTorch, etc. | Core JD requirement for AI Engineering. |
+| Current title and career relevance | If the current role is an AI/ML/Data position | Ensures we aren't hiring a frontend engineer for a senior ML role. |
+| Production/MLOps evidence | Deployment, scaling, CI/CD, Kubernetes | Differentiates seniors who deploy from juniors who just use Jupyter. |
+| Evaluation/experimentation | A/B testing, metrics, robust evaluation | Critical for deploying models in real-world environments. |
+| Python/systems/data infra | Python, Spark, databases, streaming | Foundational engineering skills. |
+| Redrob behavioral availability | `is_available` flag | Don't recommend candidates who are not open to work. |
+| Location/relocation | Current city vs JD location (Bangalore) | Checks geographic alignment or remote capacity. |
+| Risk penalties | Honeypots, generic descriptions, low YOE | Filters out noise and inflated profiles. |
+
+---
+
+## Final Output Quality
+
+* 100 ranked rows
+* under 5MB
+* 74 unique scores
+* 100 unique reasonings
+* 0 observed forensic hallucination/rule failures
+* top 20 contains no obvious non-fit roles
+* no raw dataset committed
+
+---
+
+## Top 10 Preview
+
+| Rank | Candidate ID | Title | YOE | Location | Score | Why surfaced |
+|---|---|---|---|---|---|---|
+| 1 | CAND_0018499 | Senior ML Engineer | 7.2 | Noida, Uttar Pradesh | 0.0310 | Senior Machine Learning Engineer with 7.2 YOE based in Noida, Uttar Pradesh. Strong AI... |
+| 2 | CAND_0005260 | Senior NLP Engineer | 5.2 | Chennai, Tamil Nadu | 0.0300 | Senior NLP Engineer with 5.2 YOE based in Chennai, Tamil Nadu. Strong AI indicators... |
+| 3 | CAND_0046525 | Senior ML Engineer | 6.1 | Pune, Maharashtra | 0.0281 | Senior Machine Learning Engineer with 6.1 YOE based in Pune, Maharashtra. Strong... |
+| 4 | CAND_0081846 | Lead AI Engineer | 6.7 | Jaipur, Rajasthan | 0.0267 | Lead AI Engineer with 6.7 YOE based in Jaipur, Rajasthan. Strong AI indicators... |
+| 5 | CAND_0042506 | Search Engineer | 4.2 | Mumbai, Maharashtra | 0.0262 | Search Engineer with 4.2 YOE based in Mumbai, Maharashtra. Strong AI indicators... |
+| 6 | CAND_0041669 | Recommendation Sys | 8.0 | Noida, Uttar Pradesh | 0.0253 | Recommendation Systems Engineer with 8.0 YOE based in Noida, Uttar Pradesh. Strong... |
+| 7 | CAND_0007460 | AI Engineer | 4.7 | Pune, Maharashtra | 0.0247 | AI Engineer with 4.7 YOE based in Pune, Maharashtra. Strong AI indicators with... |
+| 8 | CAND_0092278 | Senior NLP Engineer | 6.8 | Pune, Maharashtra | 0.0246 | Senior NLP Engineer with 6.8 YOE based in Pune, Maharashtra. Strong AI indicators... |
+| 9 | CAND_0026532 | Recommendation Sys | 4.8 | Chennai, Tamil Nadu | 0.0233 | Recommendation Systems Engineer with 4.8 YOE based in Chennai, Tamil Nadu. Strong... |
+| 10 | CAND_0086022 | Sr Applied Scientist| 5.3 | Kolkata, West Bengal | 0.0229 | Senior Applied Scientist with 5.3 YOE based in Kolkata, West Bengal. Strong AI i... |
+
+---
+
+## Dashboard / Sandbox
+
+* React/Vite dashboard is a local report viewer
+* no backend database needed
+* reads deterministic JSON artifacts in `/reports`
+* sandbox uses sanitized `sample_candidates.jsonl`
+* sandbox is intentionally capped for small samples; full 100K runs via CLI
+
+---
+
+## Security & Privacy
+
+* CPU-only execution
+* no external LLM/API usage
+* no secrets/API keys embedded
+* no raw data committed to GitHub
+* dashboard is local-only by default
+* `npm run dev:network` only for intentional LAN demo
+* Bandit/pip-audit/npm audit clean across local reports
+
+---
+
+## Limitations / Honest Notes
+
+* No hidden labels were provided, so we do not claim artificial MAP/NDCG numbers against a hidden truth.
+* Ranking is optimized strictly from structured profile evidence and JD signals.
+* The forensic audit validates output grounding but does not replace final human review.
+* A deterministic approach prioritizes absolute reproducibility and data privacy over opaque black-box semantic models.
+
+---
+
+## Submission Artifacts
+
+| Artifact | Path/Link |
+|---|---|
+| GitHub Repo | [Sauravssoni/Screener](https://github.com/Sauravssoni/Screener) |
+| Ranked CSV | [submissions/submission.csv](submissions/submission.csv) |
+| Official Deck PDF | [docs/RedrobRank_Official_Submission_Deck.pdf](docs/RedrobRank_Official_Submission_Deck.pdf) |
+| Approach Doc | [docs/APPROACH.md](docs/APPROACH.md) |
+| Security Doc | [docs/SECURITY.md](docs/SECURITY.md) |
+| Reproducibility Doc | [docs/REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md) |
+| Forensic Audit | [reports/final_ranking_audit.md](reports/final_ranking_audit.md) |
