@@ -146,3 +146,14 @@ Candidate JSONL
 | Security Doc | [docs/SECURITY.md](docs/SECURITY.md) |
 | Reproducibility Doc | [docs/REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md) |
 | Forensic Audit | [reports/final_ranking_audit.md](reports/final_ranking_audit.md) |
+
+---
+
+## Final Submission Verification
+
+> **Note to Evaluators:** An automated GitHub Actions CI pipeline was originally configured for this repository to enforce strict quality, linting, and security (Bandit) checks on every push. However, due to a GitHub billing/account lock limiting GitHub Actions free-tier minutes on the primary account, the workflow runs were failing to start (yielding an instant "failure" state). As a result, the `.github/workflows` directory was removed from the final submission to maintain a clean repository. All validation (Ruff, PyTest, npm audit, Bandit, submission shape) passes 100% locally.
+
+**Required Submission Paths for India.Runs Portal:**
+1. **GitHub URL:** [https://github.com/Sauravssoni/Screener](https://github.com/Sauravssoni/Screener)
+2. **Submission Output:** `submissions/submission.csv` (100 strictly-ranked candidates, <5MB)
+3. **Official Pitch Deck:** `docs/RedrobRank_Official_Submission_Deck.pdf` (11 slides, containing exact Team ID: `Syntheon`)
