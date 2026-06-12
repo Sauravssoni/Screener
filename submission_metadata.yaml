@@ -1,7 +1,0 @@
-challenge_id: redrob-ai-track-1
-team_name: AI-Builder
-submission_type: ranker-system
-files:
-  - rank.py
-  - submission.csv
-  - README.md

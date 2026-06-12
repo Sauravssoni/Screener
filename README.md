@@ -22,7 +22,7 @@ Deterministic, CPU-only, no-LLM candidate discovery engine for the Redrob Data &
 * **Not keyword-only**: Uses semantic TF-IDF weights and multi-stage filtering.
 * **Not LLM/API-based**: Avoids slow, expensive, and unpredictable black-box LLM calls.
 * **Deterministic and reproducible**: The same input always produces the exact same output.
-* **Grounded explanations only**: Zero hallucination risk. Every reason is strictly traceable to actual data.
+* **Grounded explanations only**: Zero observed hallucination failures in forensic audit. Every reason is strictly traceable to actual data.
 * **Hard penalties for non-fit roles**: Aggressively filters out honeypots, generic managers, and customer support.
 * **Forensic audit prevents title/YOE/location hallucinations**: A custom script fails CI if justifications lie.
 * **CPU-only and data-private**: Fully local execution ensures enterprise data security.
