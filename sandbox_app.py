@@ -1,7 +1,7 @@
 import streamlit as st
 import json
 import pandas as pd
-from io import StringIO
+import os
 
 from src.redrob_ranker.agents.ranking_agent import rank_candidates
 from src.redrob_ranker.features import extract_features, detect_traps
@@ -10,26 +10,35 @@ st.set_page_config(page_title="RedrobRank Sandbox", layout="wide")
 
 st.title("RedrobRank Agentic Recruiter OS - Sandbox")
 st.markdown("""
-**Note:** Full 100K ranking is run via CLI; this sandbox is for small-sample reproducibility and demonstration.
-This sandbox runs entirely locally and makes no external API calls.
+**Note:** Full 100K ranking is run via CLI (`python3 rank.py --candidates data/candidates.jsonl --out submissions/submission.csv`).
+This sandbox is for small-sample reproducibility and demonstration.
+It runs entirely locally and makes no external API calls.
 """)
 
-uploaded_file = st.file_uploader("Upload a small candidates.jsonl file (max 1000 lines)", type=["jsonl"])
+uploaded_file = st.file_uploader("Upload a small candidates.jsonl file (max 100 lines)", type=["jsonl"])
+
+use_sample = st.checkbox("Use bundled sample_candidates.jsonl instead", value=True if not uploaded_file else False)
+
+lines = []
 
 if uploaded_file is not None:
     content = uploaded_file.getvalue().decode("utf-8")
     lines = content.strip().split('\n')
-    
-    if len(lines) > 1000:
-        st.warning(f"File too large ({len(lines)} lines). Truncating to 1000 for browser sandbox.")
-        lines = lines[:1000]
+elif use_sample and os.path.exists("sample_candidates.jsonl"):
+    with open("sample_candidates.jsonl", "r", encoding="utf-8") as f:
+        lines = f.read().strip().split('\n')
+
+if lines:
+    if len(lines) > 100:
+        st.warning(f"File too large ({len(lines)} lines). Truncating to 100 for browser sandbox.")
+        lines = lines[:100]
         
     st.info(f"Loaded {len(lines)} candidates.")
     
     if st.button("Run Deterministic Ranker"):
         candidates_with_context = []
         
-        with st.spinner("Extracting features and scoring..."):
+        with st.spinner("Extracting features and scoring (TF-IDF + RRF)..."):
             for line in lines:
                 if not line.strip():
                     continue
@@ -52,7 +61,7 @@ if uploaded_file is not None:
                     "Candidate ID": c.get("candidate_id"),
                     "Title": prof.get("current_title"),
                     "YOE": prof.get("years_of_experience"),
-                    "Score": round(c.get("final_score", 0), 4),
+                    "RRF Score": round(c.get("final_score", 0), 4),
                     "Reasoning": c.get("reasoning", "")
                 })
                 
@@ -68,4 +77,4 @@ if uploaded_file is not None:
                 mime='text/csv',
             )
 else:
-    st.write("Please upload a .jsonl file to test the deterministic ranking engine.")
+    st.write("Please upload a .jsonl file or use the bundled sample to test the deterministic ranking engine.")

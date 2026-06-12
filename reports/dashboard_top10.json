@@ -1,140 +1,140 @@
 [
   {
     "rank": 1,
-    "candidate_id": "CAND_0000003",
-    "score": "0.6782",
-    "fit_band": "Strong",
-    "reasoning": "Candidate is a Recommendation Systems Engineer with 6.0 YOE in Hyderabad, Telangana. Strong AI fit with 9 core terms (matched: recommendation systems, learning-to-rank, relevance). Shows solid production shipping indicators (e.g. deployment, production). High Redrob response rate (91%). [Ref: CAND_0000003]",
+    "candidate_id": "CAND_0050001",
+    "score": "0.0333",
+    "fit_band": "Borderline",
+    "reasoning": "Candidate is a Recommendation Systems Engineer with 6.0 YOE based in Hyderabad, Telangana. Strong AI indicators with 10 core terms (matched: recommendation systems, learning-to-rank, relevance, nlp). JD Semantic Alignment Score: 0.027. Shows production shipping evidence (e.g., deployment, production, infrastructure). Experience with ML evaluation metrics (metrics, eval). Mentions 1 python/systems keywords. High Redrob response rate (91%). [Ref: CAND_0050001]",
     "evidence_tags": [
-      "AI: 9",
-      "Prod: 2",
-      "Eval: 0"
+      "AI: 10",
+      "Prod: 3",
+      "Eval: 2"
     ],
     "risk_flags": [],
     "review_status": "pending_review"
   },
   {
     "rank": 2,
-    "candidate_id": "CAND_0000005",
-    "score": "0.6782",
-    "fit_band": "Strong",
-    "reasoning": "Candidate is a Recommendation Systems Engineer with 6.0 YOE in Hyderabad, Telangana. Strong AI fit with 9 core terms (matched: recommendation systems, learning-to-rank, relevance). Shows solid production shipping indicators (e.g. deployment, production). High Redrob response rate (91%). [Ref: CAND_0000005]",
+    "candidate_id": "CAND_0055543",
+    "score": "0.0328",
+    "fit_band": "Borderline",
+    "reasoning": "Candidate is a Recommendation Systems Engineer with 6.0 YOE based in Hyderabad, Telangana. Strong AI indicators with 10 core terms (matched: recommendation systems, learning-to-rank, relevance, nlp). JD Semantic Alignment Score: 0.027. Shows production shipping evidence (e.g., deployment, production, infrastructure). Experience with ML evaluation metrics (metrics, eval). Mentions 1 python/systems keywords. High Redrob response rate (91%). [Ref: CAND_0055543]",
     "evidence_tags": [
-      "AI: 9",
-      "Prod: 2",
-      "Eval: 0"
+      "AI: 10",
+      "Prod: 3",
+      "Eval: 2"
     ],
     "risk_flags": [],
     "review_status": "pending_review"
   },
   {
     "rank": 3,
-    "candidate_id": "CAND_0000007",
-    "score": "0.6782",
-    "fit_band": "Strong",
-    "reasoning": "Candidate is a Recommendation Systems Engineer with 6.0 YOE in Hyderabad, Telangana. Strong AI fit with 9 core terms (matched: recommendation systems, learning-to-rank, relevance). Shows solid production shipping indicators (e.g. deployment, production). High Redrob response rate (91%). [Ref: CAND_0000007]",
+    "candidate_id": "CAND_0055545",
+    "score": "0.0323",
+    "fit_band": "Borderline",
+    "reasoning": "Candidate is a Recommendation Systems Engineer with 6.0 YOE based in Hyderabad, Telangana. Strong AI indicators with 10 core terms (matched: recommendation systems, learning-to-rank, relevance, nlp). JD Semantic Alignment Score: 0.027. Shows production shipping evidence (e.g., deployment, production, infrastructure). Experience with ML evaluation metrics (metrics, eval). Mentions 1 python/systems keywords. High Redrob response rate (91%). [Ref: CAND_0055545]",
     "evidence_tags": [
-      "AI: 9",
-      "Prod: 2",
-      "Eval: 0"
+      "AI: 10",
+      "Prod: 3",
+      "Eval: 2"
     ],
     "risk_flags": [],
     "review_status": "pending_review"
   },
   {
     "rank": 4,
-    "candidate_id": "CAND_0000009",
-    "score": "0.6782",
-    "fit_band": "Strong",
-    "reasoning": "Candidate is a Recommendation Systems Engineer with 6.0 YOE in Hyderabad, Telangana. Strong AI fit with 9 core terms (matched: recommendation systems, learning-to-rank, relevance). Shows solid production shipping indicators (e.g. deployment, production). High Redrob response rate (91%). [Ref: CAND_0000009]",
+    "candidate_id": "CAND_0055547",
+    "score": "0.0317",
+    "fit_band": "Borderline",
+    "reasoning": "Candidate is a Recommendation Systems Engineer with 6.0 YOE based in Hyderabad, Telangana. Strong AI indicators with 10 core terms (matched: recommendation systems, learning-to-rank, relevance, nlp). JD Semantic Alignment Score: 0.027. Shows production shipping evidence (e.g., deployment, production, infrastructure). Experience with ML evaluation metrics (metrics, eval). Mentions 1 python/systems keywords. High Redrob response rate (91%). [Ref: CAND_0055547]",
     "evidence_tags": [
-      "AI: 9",
-      "Prod: 2",
-      "Eval: 0"
+      "AI: 10",
+      "Prod: 3",
+      "Eval: 2"
     ],
     "risk_flags": [],
     "review_status": "pending_review"
   },
   {
     "rank": 5,
-    "candidate_id": "CAND_0000011",
-    "score": "0.6782",
-    "fit_band": "Strong",
-    "reasoning": "Candidate is a Recommendation Systems Engineer with 6.0 YOE in Hyderabad, Telangana. Strong AI fit with 9 core terms (matched: recommendation systems, learning-to-rank, relevance). Shows solid production shipping indicators (e.g. deployment, production). High Redrob response rate (91%). [Ref: CAND_0000011]",
+    "candidate_id": "CAND_0055549",
+    "score": "0.0312",
+    "fit_band": "Borderline",
+    "reasoning": "Candidate is a Recommendation Systems Engineer with 6.0 YOE based in Hyderabad, Telangana. Strong AI indicators with 10 core terms (matched: recommendation systems, learning-to-rank, relevance, nlp). JD Semantic Alignment Score: 0.027. Shows production shipping evidence (e.g., deployment, production, infrastructure). Experience with ML evaluation metrics (metrics, eval). Mentions 1 python/systems keywords. High Redrob response rate (91%). [Ref: CAND_0055549]",
     "evidence_tags": [
-      "AI: 9",
-      "Prod: 2",
-      "Eval: 0"
+      "AI: 10",
+      "Prod: 3",
+      "Eval: 2"
     ],
     "risk_flags": [],
     "review_status": "pending_review"
   },
   {
     "rank": 6,
-    "candidate_id": "CAND_0000013",
-    "score": "0.6782",
-    "fit_band": "Strong",
-    "reasoning": "Candidate is a Recommendation Systems Engineer with 6.0 YOE in Hyderabad, Telangana. Strong AI fit with 9 core terms (matched: recommendation systems, learning-to-rank, relevance). Shows solid production shipping indicators (e.g. deployment, production). High Redrob response rate (91%). [Ref: CAND_0000013]",
+    "candidate_id": "CAND_0055551",
+    "score": "0.0308",
+    "fit_band": "Borderline",
+    "reasoning": "Candidate is a Recommendation Systems Engineer with 6.0 YOE based in Hyderabad, Telangana. Strong AI indicators with 10 core terms (matched: recommendation systems, learning-to-rank, relevance, nlp). JD Semantic Alignment Score: 0.027. Shows production shipping evidence (e.g., deployment, production, infrastructure). Experience with ML evaluation metrics (metrics, eval). Mentions 1 python/systems keywords. High Redrob response rate (91%). [Ref: CAND_0055551]",
     "evidence_tags": [
-      "AI: 9",
-      "Prod: 2",
-      "Eval: 0"
+      "AI: 10",
+      "Prod: 3",
+      "Eval: 2"
     ],
     "risk_flags": [],
     "review_status": "pending_review"
   },
   {
     "rank": 7,
-    "candidate_id": "CAND_0000015",
-    "score": "0.6782",
-    "fit_band": "Strong",
-    "reasoning": "Candidate is a Recommendation Systems Engineer with 6.0 YOE in Hyderabad, Telangana. Strong AI fit with 9 core terms (matched: recommendation systems, learning-to-rank, relevance). Shows solid production shipping indicators (e.g. deployment, production). High Redrob response rate (91%). [Ref: CAND_0000015]",
+    "candidate_id": "CAND_0055553",
+    "score": "0.0303",
+    "fit_band": "Borderline",
+    "reasoning": "Candidate is a Recommendation Systems Engineer with 6.0 YOE based in Hyderabad, Telangana. Strong AI indicators with 10 core terms (matched: recommendation systems, learning-to-rank, relevance, nlp). JD Semantic Alignment Score: 0.027. Shows production shipping evidence (e.g., deployment, production, infrastructure). Experience with ML evaluation metrics (metrics, eval). Mentions 1 python/systems keywords. High Redrob response rate (91%). [Ref: CAND_0055553]",
     "evidence_tags": [
-      "AI: 9",
-      "Prod: 2",
-      "Eval: 0"
+      "AI: 10",
+      "Prod: 3",
+      "Eval: 2"
     ],
     "risk_flags": [],
     "review_status": "pending_review"
   },
   {
     "rank": 8,
-    "candidate_id": "CAND_0000017",
-    "score": "0.6782",
-    "fit_band": "Strong",
-    "reasoning": "Candidate is a Recommendation Systems Engineer with 6.0 YOE in Hyderabad, Telangana. Strong AI fit with 9 core terms (matched: recommendation systems, learning-to-rank, relevance). Shows solid production shipping indicators (e.g. deployment, production). High Redrob response rate (91%). [Ref: CAND_0000017]",
+    "candidate_id": "CAND_0055555",
+    "score": "0.0299",
+    "fit_band": "Borderline",
+    "reasoning": "Candidate is a Recommendation Systems Engineer with 6.0 YOE based in Hyderabad, Telangana. Strong AI indicators with 10 core terms (matched: recommendation systems, learning-to-rank, relevance, nlp). JD Semantic Alignment Score: 0.027. Shows production shipping evidence (e.g., deployment, production, infrastructure). Experience with ML evaluation metrics (metrics, eval). Mentions 1 python/systems keywords. High Redrob response rate (91%). [Ref: CAND_0055555]",
     "evidence_tags": [
-      "AI: 9",
-      "Prod: 2",
-      "Eval: 0"
+      "AI: 10",
+      "Prod: 3",
+      "Eval: 2"
     ],
     "risk_flags": [],
     "review_status": "pending_review"
   },
   {
     "rank": 9,
-    "candidate_id": "CAND_0000019",
-    "score": "0.6782",
-    "fit_band": "Strong",
-    "reasoning": "Candidate is a Recommendation Systems Engineer with 6.0 YOE in Hyderabad, Telangana. Strong AI fit with 9 core terms (matched: recommendation systems, learning-to-rank, relevance). Shows solid production shipping indicators (e.g. deployment, production). High Redrob response rate (91%). [Ref: CAND_0000019]",
+    "candidate_id": "CAND_0055557",
+    "score": "0.0294",
+    "fit_band": "Borderline",
+    "reasoning": "Candidate is a Recommendation Systems Engineer with 6.0 YOE based in Hyderabad, Telangana. Strong AI indicators with 10 core terms (matched: recommendation systems, learning-to-rank, relevance, nlp). JD Semantic Alignment Score: 0.027. Shows production shipping evidence (e.g., deployment, production, infrastructure). Experience with ML evaluation metrics (metrics, eval). Mentions 1 python/systems keywords. High Redrob response rate (91%). [Ref: CAND_0055557]",
     "evidence_tags": [
-      "AI: 9",
-      "Prod: 2",
-      "Eval: 0"
+      "AI: 10",
+      "Prod: 3",
+      "Eval: 2"
     ],
     "risk_flags": [],
     "review_status": "pending_review"
   },
   {
     "rank": 10,
-    "candidate_id": "CAND_0000021",
-    "score": "0.6782",
-    "fit_band": "Strong",
-    "reasoning": "Candidate is a Recommendation Systems Engineer with 6.0 YOE in Hyderabad, Telangana. Strong AI fit with 9 core terms (matched: recommendation systems, learning-to-rank, relevance). Shows solid production shipping indicators (e.g. deployment, production). High Redrob response rate (91%). [Ref: CAND_0000021]",
+    "candidate_id": "CAND_0055559",
+    "score": "0.0290",
+    "fit_band": "Borderline",
+    "reasoning": "Candidate is a Recommendation Systems Engineer with 6.0 YOE based in Hyderabad, Telangana. Strong AI indicators with 10 core terms (matched: recommendation systems, learning-to-rank, relevance, nlp). JD Semantic Alignment Score: 0.027. Shows production shipping evidence (e.g., deployment, production, infrastructure). Experience with ML evaluation metrics (metrics, eval). Mentions 1 python/systems keywords. High Redrob response rate (91%). [Ref: CAND_0055559]",
     "evidence_tags": [
-      "AI: 9",
-      "Prod: 2",
-      "Eval: 0"
+      "AI: 10",
+      "Prod: 3",
+      "Eval: 2"
     ],
     "risk_flags": [],
     "review_status": "pending_review"

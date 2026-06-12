@@ -1,8 +1,8 @@
 [
   {
-    "candidate_id": "CAND_0000003",
+    "candidate_id": "CAND_0050001",
     "rank": 1,
-    "score": 0.6782133333333333,
+    "score": 0.0333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -14,20 +14,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -52,14 +59,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000005",
+    "candidate_id": "CAND_0055543",
     "rank": 2,
-    "score": 0.6782133333333333,
+    "score": 0.0328,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -71,20 +78,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -109,14 +123,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000007",
+    "candidate_id": "CAND_0055545",
     "rank": 3,
-    "score": 0.6782133333333333,
+    "score": 0.0323,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -128,20 +142,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -166,14 +187,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000009",
+    "candidate_id": "CAND_0055547",
     "rank": 4,
-    "score": 0.6782133333333333,
+    "score": 0.0317,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -185,20 +206,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -223,14 +251,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000011",
+    "candidate_id": "CAND_0055549",
     "rank": 5,
-    "score": 0.6782133333333333,
+    "score": 0.0312,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -242,20 +270,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -280,14 +315,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000013",
+    "candidate_id": "CAND_0055551",
     "rank": 6,
-    "score": 0.6782133333333333,
+    "score": 0.0308,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -299,20 +334,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -337,14 +379,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000015",
+    "candidate_id": "CAND_0055553",
     "rank": 7,
-    "score": 0.6782133333333333,
+    "score": 0.0303,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -356,20 +398,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -394,14 +443,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000017",
+    "candidate_id": "CAND_0055555",
     "rank": 8,
-    "score": 0.6782133333333333,
+    "score": 0.0299,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -413,20 +462,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -451,14 +507,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000019",
+    "candidate_id": "CAND_0055557",
     "rank": 9,
-    "score": 0.6782133333333333,
+    "score": 0.0294,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -470,20 +526,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -508,14 +571,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000021",
+    "candidate_id": "CAND_0055559",
     "rank": 10,
-    "score": 0.6782133333333333,
+    "score": 0.029,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -527,20 +590,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -565,14 +635,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000023",
+    "candidate_id": "CAND_0055561",
     "rank": 11,
-    "score": 0.6782133333333333,
+    "score": 0.0286,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -584,20 +654,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -622,14 +699,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000025",
+    "candidate_id": "CAND_0055563",
     "rank": 12,
-    "score": 0.6782133333333333,
+    "score": 0.0282,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -641,20 +718,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -679,14 +763,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000027",
+    "candidate_id": "CAND_0055565",
     "rank": 13,
-    "score": 0.6782133333333333,
+    "score": 0.0278,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -698,20 +782,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -736,14 +827,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000029",
+    "candidate_id": "CAND_0055567",
     "rank": 14,
-    "score": 0.6782133333333333,
+    "score": 0.0274,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -755,20 +846,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -793,14 +891,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000031",
+    "candidate_id": "CAND_0055541",
     "rank": 15,
-    "score": 0.6782133333333333,
+    "score": 0.027,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -812,20 +910,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -850,14 +955,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000033",
+    "candidate_id": "CAND_0055569",
     "rank": 16,
-    "score": 0.6782133333333333,
+    "score": 0.0267,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -869,20 +974,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -907,14 +1019,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000035",
+    "candidate_id": "CAND_0055573",
     "rank": 17,
-    "score": 0.6782133333333333,
+    "score": 0.0263,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -926,20 +1038,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -964,14 +1083,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000037",
+    "candidate_id": "CAND_0055575",
     "rank": 18,
-    "score": 0.6782133333333333,
+    "score": 0.026,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -983,20 +1102,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -1021,14 +1147,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000039",
+    "candidate_id": "CAND_0055577",
     "rank": 19,
-    "score": 0.6782133333333333,
+    "score": 0.0256,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -1040,20 +1166,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -1078,14 +1211,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000041",
+    "candidate_id": "CAND_0055579",
     "rank": 20,
-    "score": 0.6782133333333333,
+    "score": 0.0253,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -1097,20 +1230,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -1135,14 +1275,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000043",
+    "candidate_id": "CAND_0055581",
     "rank": 21,
-    "score": 0.6782133333333333,
+    "score": 0.025,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -1154,20 +1294,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -1192,14 +1339,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000045",
+    "candidate_id": "CAND_0055583",
     "rank": 22,
-    "score": 0.6782133333333333,
+    "score": 0.0247,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -1211,20 +1358,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -1249,14 +1403,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000047",
+    "candidate_id": "CAND_0055585",
     "rank": 23,
-    "score": 0.6782133333333333,
+    "score": 0.0244,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -1268,20 +1422,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -1306,14 +1467,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000049",
+    "candidate_id": "CAND_0055587",
     "rank": 24,
-    "score": 0.6782133333333333,
+    "score": 0.0241,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -1325,20 +1486,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -1363,14 +1531,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000051",
+    "candidate_id": "CAND_0055589",
     "rank": 25,
-    "score": 0.6782133333333333,
+    "score": 0.0238,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -1382,20 +1550,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -1420,14 +1595,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000053",
+    "candidate_id": "CAND_0055591",
     "rank": 26,
-    "score": 0.6782133333333333,
+    "score": 0.0235,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -1439,20 +1614,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -1477,14 +1659,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000055",
+    "candidate_id": "CAND_0055593",
     "rank": 27,
-    "score": 0.6782133333333333,
+    "score": 0.0233,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -1496,20 +1678,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -1534,14 +1723,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000057",
+    "candidate_id": "CAND_0055595",
     "rank": 28,
-    "score": 0.6782133333333333,
+    "score": 0.023,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -1553,20 +1742,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -1591,14 +1787,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000059",
+    "candidate_id": "CAND_0055597",
     "rank": 29,
-    "score": 0.6782133333333333,
+    "score": 0.0227,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -1610,20 +1806,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -1648,14 +1851,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000061",
+    "candidate_id": "CAND_0055571",
     "rank": 30,
-    "score": 0.6782133333333333,
+    "score": 0.0225,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -1667,20 +1870,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -1705,14 +1915,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000063",
+    "candidate_id": "CAND_0055539",
     "rank": 31,
-    "score": 0.6782133333333333,
+    "score": 0.0222,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -1724,20 +1934,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -1762,14 +1979,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000065",
+    "candidate_id": "CAND_0055537",
     "rank": 32,
-    "score": 0.6782133333333333,
+    "score": 0.022,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -1781,20 +1998,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -1819,14 +2043,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000067",
+    "candidate_id": "CAND_0055535",
     "rank": 33,
-    "score": 0.6782133333333333,
+    "score": 0.0217,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -1838,20 +2062,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -1876,14 +2107,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000069",
+    "candidate_id": "CAND_0055477",
     "rank": 34,
-    "score": 0.6782133333333333,
+    "score": 0.0215,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -1895,20 +2126,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -1933,14 +2171,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000071",
+    "candidate_id": "CAND_0055479",
     "rank": 35,
-    "score": 0.6782133333333333,
+    "score": 0.0213,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -1952,20 +2190,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -1990,14 +2235,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000073",
+    "candidate_id": "CAND_0055481",
     "rank": 36,
-    "score": 0.6782133333333333,
+    "score": 0.0211,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -2009,20 +2254,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -2047,14 +2299,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000075",
+    "candidate_id": "CAND_0055483",
     "rank": 37,
-    "score": 0.6782133333333333,
+    "score": 0.0208,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -2066,20 +2318,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -2104,14 +2363,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000077",
+    "candidate_id": "CAND_0055485",
     "rank": 38,
-    "score": 0.6782133333333333,
+    "score": 0.0206,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -2123,20 +2382,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -2161,14 +2427,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000079",
+    "candidate_id": "CAND_0055487",
     "rank": 39,
-    "score": 0.6782133333333333,
+    "score": 0.0204,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -2180,20 +2446,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -2218,14 +2491,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000081",
+    "candidate_id": "CAND_0055489",
     "rank": 40,
-    "score": 0.6782133333333333,
+    "score": 0.0202,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -2237,20 +2510,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -2275,14 +2555,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000083",
+    "candidate_id": "CAND_0055491",
     "rank": 41,
-    "score": 0.6782133333333333,
+    "score": 0.02,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -2294,20 +2574,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -2332,14 +2619,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000085",
+    "candidate_id": "CAND_0055493",
     "rank": 42,
-    "score": 0.6782133333333333,
+    "score": 0.0198,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -2351,20 +2638,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -2389,14 +2683,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000087",
+    "candidate_id": "CAND_0055495",
     "rank": 43,
-    "score": 0.6782133333333333,
+    "score": 0.0196,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -2408,20 +2702,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -2446,14 +2747,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000089",
+    "candidate_id": "CAND_0055497",
     "rank": 44,
-    "score": 0.6782133333333333,
+    "score": 0.0194,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -2465,20 +2766,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -2503,14 +2811,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000091",
+    "candidate_id": "CAND_0055499",
     "rank": 45,
-    "score": 0.6782133333333333,
+    "score": 0.0192,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -2522,20 +2830,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -2560,14 +2875,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000093",
+    "candidate_id": "CAND_0055501",
     "rank": 46,
-    "score": 0.6782133333333333,
+    "score": 0.019,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -2579,20 +2894,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -2617,14 +2939,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000095",
+    "candidate_id": "CAND_0055503",
     "rank": 47,
-    "score": 0.6782133333333333,
+    "score": 0.0189,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -2636,20 +2958,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -2674,14 +3003,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000097",
+    "candidate_id": "CAND_0055505",
     "rank": 48,
-    "score": 0.6782133333333333,
+    "score": 0.0187,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -2693,20 +3022,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -2731,14 +3067,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000099",
+    "candidate_id": "CAND_0055507",
     "rank": 49,
-    "score": 0.6782133333333333,
+    "score": 0.0185,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -2750,20 +3086,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -2788,14 +3131,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000101",
+    "candidate_id": "CAND_0055509",
     "rank": 50,
-    "score": 0.6782133333333333,
+    "score": 0.0183,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -2807,20 +3150,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -2845,14 +3195,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000103",
+    "candidate_id": "CAND_0055511",
     "rank": 51,
-    "score": 0.6782133333333333,
+    "score": 0.0182,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -2864,20 +3214,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -2902,14 +3259,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000105",
+    "candidate_id": "CAND_0055513",
     "rank": 52,
-    "score": 0.6782133333333333,
+    "score": 0.018,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -2921,20 +3278,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -2959,14 +3323,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000107",
+    "candidate_id": "CAND_0055515",
     "rank": 53,
-    "score": 0.6782133333333333,
+    "score": 0.0179,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -2978,20 +3342,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -3016,14 +3387,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000109",
+    "candidate_id": "CAND_0055517",
     "rank": 54,
-    "score": 0.6782133333333333,
+    "score": 0.0177,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -3035,20 +3406,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -3073,14 +3451,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000111",
+    "candidate_id": "CAND_0055519",
     "rank": 55,
-    "score": 0.6782133333333333,
+    "score": 0.0175,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -3092,20 +3470,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -3130,14 +3515,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000113",
+    "candidate_id": "CAND_0055521",
     "rank": 56,
-    "score": 0.6782133333333333,
+    "score": 0.0174,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -3149,20 +3534,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -3187,14 +3579,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000115",
+    "candidate_id": "CAND_0055523",
     "rank": 57,
-    "score": 0.6782133333333333,
+    "score": 0.0172,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -3206,20 +3598,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -3244,14 +3643,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000117",
+    "candidate_id": "CAND_0055525",
     "rank": 58,
-    "score": 0.6782133333333333,
+    "score": 0.0171,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -3263,20 +3662,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -3301,14 +3707,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000119",
+    "candidate_id": "CAND_0055527",
     "rank": 59,
-    "score": 0.6782133333333333,
+    "score": 0.0169,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -3320,20 +3726,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -3358,14 +3771,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000121",
+    "candidate_id": "CAND_0055529",
     "rank": 60,
-    "score": 0.6782133333333333,
+    "score": 0.0168,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -3377,20 +3790,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -3415,14 +3835,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000123",
+    "candidate_id": "CAND_0055531",
     "rank": 61,
-    "score": 0.6782133333333333,
+    "score": 0.0167,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -3434,20 +3854,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -3472,14 +3899,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000125",
+    "candidate_id": "CAND_0055533",
     "rank": 62,
-    "score": 0.6782133333333333,
+    "score": 0.0165,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -3491,20 +3918,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -3529,14 +3963,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000127",
+    "candidate_id": "CAND_0055599",
     "rank": 63,
-    "score": 0.6782133333333333,
+    "score": 0.0164,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -3548,20 +3982,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -3586,14 +4027,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000129",
+    "candidate_id": "CAND_0055475",
     "rank": 64,
-    "score": 0.6782133333333333,
+    "score": 0.0163,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -3605,20 +4046,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -3643,14 +4091,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000131",
+    "candidate_id": "CAND_0055601",
     "rank": 65,
-    "score": 0.6782133333333333,
+    "score": 0.0161,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -3662,20 +4110,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -3700,14 +4155,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000133",
+    "candidate_id": "CAND_0055605",
     "rank": 66,
-    "score": 0.6782133333333333,
+    "score": 0.016,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -3719,20 +4174,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -3757,14 +4219,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000135",
+    "candidate_id": "CAND_0055673",
     "rank": 67,
-    "score": 0.6782133333333333,
+    "score": 0.0159,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -3776,20 +4238,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -3814,14 +4283,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000137",
+    "candidate_id": "CAND_0055675",
     "rank": 68,
-    "score": 0.6782133333333333,
+    "score": 0.0157,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -3833,20 +4302,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -3871,14 +4347,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000139",
+    "candidate_id": "CAND_0055677",
     "rank": 69,
-    "score": 0.6782133333333333,
+    "score": 0.0156,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -3890,20 +4366,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -3928,14 +4411,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000141",
+    "candidate_id": "CAND_0055679",
     "rank": 70,
-    "score": 0.6782133333333333,
+    "score": 0.0155,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -3947,20 +4430,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -3985,14 +4475,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000143",
+    "candidate_id": "CAND_0055681",
     "rank": 71,
-    "score": 0.6782133333333333,
+    "score": 0.0154,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -4004,20 +4494,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -4042,14 +4539,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000145",
+    "candidate_id": "CAND_0055683",
     "rank": 72,
-    "score": 0.6782133333333333,
+    "score": 0.0153,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -4061,20 +4558,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -4099,14 +4603,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000147",
+    "candidate_id": "CAND_0055685",
     "rank": 73,
-    "score": 0.6782133333333333,
+    "score": 0.0152,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -4118,20 +4622,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -4156,14 +4667,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000149",
+    "candidate_id": "CAND_0055687",
     "rank": 74,
-    "score": 0.6782133333333333,
+    "score": 0.015,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -4175,20 +4686,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -4213,14 +4731,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000151",
+    "candidate_id": "CAND_0055689",
     "rank": 75,
-    "score": 0.6782133333333333,
+    "score": 0.0149,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -4232,20 +4750,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -4270,14 +4795,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000153",
+    "candidate_id": "CAND_0055691",
     "rank": 76,
-    "score": 0.6782133333333333,
+    "score": 0.0148,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -4289,20 +4814,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -4327,14 +4859,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000155",
+    "candidate_id": "CAND_0055693",
     "rank": 77,
-    "score": 0.6782133333333333,
+    "score": 0.0147,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -4346,20 +4878,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -4384,14 +4923,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000157",
+    "candidate_id": "CAND_0055695",
     "rank": 78,
-    "score": 0.6782133333333333,
+    "score": 0.0146,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -4403,20 +4942,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -4441,14 +4987,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000159",
+    "candidate_id": "CAND_0055697",
     "rank": 79,
-    "score": 0.6782133333333333,
+    "score": 0.0145,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -4460,20 +5006,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -4498,14 +5051,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000161",
+    "candidate_id": "CAND_0055671",
     "rank": 80,
-    "score": 0.6782133333333333,
+    "score": 0.0144,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -4517,20 +5070,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -4555,14 +5115,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000163",
+    "candidate_id": "CAND_0055699",
     "rank": 81,
-    "score": 0.6782133333333333,
+    "score": 0.0143,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -4574,20 +5134,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -4612,14 +5179,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000165",
+    "candidate_id": "CAND_0055703",
     "rank": 82,
-    "score": 0.6782133333333333,
+    "score": 0.0142,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -4631,20 +5198,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -4669,14 +5243,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000167",
+    "candidate_id": "CAND_0055705",
     "rank": 83,
-    "score": 0.6782133333333333,
+    "score": 0.0141,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -4688,20 +5262,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -4726,14 +5307,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000169",
+    "candidate_id": "CAND_0055707",
     "rank": 84,
-    "score": 0.6782133333333333,
+    "score": 0.014,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -4745,20 +5326,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -4783,14 +5371,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000171",
+    "candidate_id": "CAND_0055709",
     "rank": 85,
-    "score": 0.6782133333333333,
+    "score": 0.0139,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -4802,20 +5390,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -4840,14 +5435,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000173",
+    "candidate_id": "CAND_0055711",
     "rank": 86,
-    "score": 0.6782133333333333,
+    "score": 0.0138,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -4859,20 +5454,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -4897,14 +5499,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000175",
+    "candidate_id": "CAND_0055713",
     "rank": 87,
-    "score": 0.6782133333333333,
+    "score": 0.0137,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -4916,20 +5518,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -4954,14 +5563,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000177",
+    "candidate_id": "CAND_0055715",
     "rank": 88,
-    "score": 0.6782133333333333,
+    "score": 0.0136,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -4973,20 +5582,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -5011,14 +5627,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000179",
+    "candidate_id": "CAND_0055717",
     "rank": 89,
-    "score": 0.6782133333333333,
+    "score": 0.0135,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -5030,20 +5646,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -5068,14 +5691,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000181",
+    "candidate_id": "CAND_0055719",
     "rank": 90,
-    "score": 0.6782133333333333,
+    "score": 0.0134,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -5087,20 +5710,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -5125,14 +5755,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000183",
+    "candidate_id": "CAND_0055721",
     "rank": 91,
-    "score": 0.6782133333333333,
+    "score": 0.0133,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -5144,20 +5774,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -5182,14 +5819,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000185",
+    "candidate_id": "CAND_0055723",
     "rank": 92,
-    "score": 0.6782133333333333,
+    "score": 0.0132,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -5201,20 +5838,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -5239,14 +5883,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000187",
+    "candidate_id": "CAND_0055725",
     "rank": 93,
-    "score": 0.6782133333333333,
+    "score": 0.0132,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -5258,20 +5902,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -5296,14 +5947,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000189",
+    "candidate_id": "CAND_0055727",
     "rank": 94,
-    "score": 0.6782133333333333,
+    "score": 0.0131,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -5315,20 +5966,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -5353,14 +6011,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000191",
+    "candidate_id": "CAND_0055701",
     "rank": 95,
-    "score": 0.6782133333333333,
+    "score": 0.013,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -5372,20 +6030,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -5410,14 +6075,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000193",
+    "candidate_id": "CAND_0055669",
     "rank": 96,
-    "score": 0.6782133333333333,
+    "score": 0.0129,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -5429,20 +6094,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -5467,14 +6139,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000195",
+    "candidate_id": "CAND_0055667",
     "rank": 97,
-    "score": 0.6782133333333333,
+    "score": 0.0128,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -5486,20 +6158,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -5524,14 +6203,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000197",
+    "candidate_id": "CAND_0055607",
     "rank": 98,
-    "score": 0.6782133333333333,
+    "score": 0.0127,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -5543,20 +6222,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -5581,14 +6267,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000199",
+    "candidate_id": "CAND_0055665",
     "rank": 99,
-    "score": 0.6782133333333333,
+    "score": 0.0127,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -5600,20 +6286,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -5638,14 +6331,14 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   },
   {
-    "candidate_id": "CAND_0000201",
+    "candidate_id": "CAND_0055609",
     "rank": 100,
-    "score": 0.6782133333333333,
+    "score": 0.0126,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
@@ -5657,20 +6350,27 @@
           "nlp",
           "ranking",
           "retrieval",
+          "embedding",
           "faiss",
           "pinecone",
           "transformers"
         ],
-        "core_ai_count": 9,
+        "core_ai_count": 10,
         "production_terms": [
           "deployment",
-          "production"
+          "production",
+          "infrastructure"
         ],
-        "production_count": 2,
-        "evaluation_terms": [],
-        "evaluation_count": 0,
-        "python_systems_terms": [],
-        "python_systems_count": 0,
+        "production_count": 3,
+        "evaluation_terms": [
+          "metrics",
+          "eval"
+        ],
+        "evaluation_count": 2,
+        "python_systems_terms": [
+          "go"
+        ],
+        "python_systems_count": 1,
         "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
@@ -5695,8 +6395,8 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 2,
-      "evaluation_evidence_count": 0
+      "production_evidence_count": 3,
+      "evaluation_evidence_count": 2
     }
   }
 ]

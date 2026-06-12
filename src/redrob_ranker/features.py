@@ -1,4 +1,4 @@
-from src.redrob_ranker.text import count_terms, normalize_text
+from src.redrob_ranker.text import normalize_text
 import re
 
 CORE_AI_TERMS = [
@@ -6,27 +6,28 @@ CORE_AI_TERMS = [
     "faiss", "pinecone", "qdrant", "weaviate", "elasticsearch", "opensearch",
     "recommender systems", "recommendation systems", "learning-to-rank", "personalization", "relevance",
     "nlp", "transformers", "sentence-transformers", "hugging face", "fine-tuning", "peft", "qlora",
-    "ranking", "retrieval", "llm"
+    "ranking", "retrieval", "llm", "large language models", "embedding", "embeddings",
+    "milvus", "chroma", "cross-encoder", "bi-encoder", "langchain", "llamaindex"
 ]
 
 PRODUCTION_TERMS = [
     "mlops", "deployment", "model serving", "latency", "monitoring", "pipelines",
-    "docker", "kubernetes", "mlflow", "airflow", "fastapi", "production"
+    "docker", "kubernetes", "mlflow", "airflow", "fastapi", "production", "scale", "infrastructure"
 ]
 
 EVALUATION_TERMS = [
     "ndcg", "map", "mrr", "precision", "recall", "offline benchmark", "a-b testing", "a/b testing",
-    "experimentation", "feedback loops"
+    "experimentation", "feedback loops", "metrics", "eval", "hit rate"
 ]
 
 PYTHON_SYSTEMS_TERMS = [
-    "python", "sql", "spark", "kafka", "redis", "postgres", "snowflake", "dbt"
+    "python", "sql", "spark", "kafka", "redis", "postgres", "snowflake", "dbt", "go", "c++"
 ]
 
-NON_TECH_ROLES = ["customer support", "accountant", "civil engineer", "content writer", "operations manager", "hr", "sales"]
-MANAGER_ROLES = ["director", "vp", "manager", "head"]
-RESEARCH_TERMS = ["research-only", "academic lab", "tutorial"]
-PROMPT_TERMS = ["chatgpt", "prompt engineering"]
+NON_TECH_ROLES = ["customer support", "accountant", "civil engineer", "content writer", "operations manager", "hr", "sales", "marketing", "recruiter", "financial analyst", "teacher"]
+MANAGER_ROLES = ["director", "vp", "manager", "head", "founder", "ceo", "cto"]
+RESEARCH_TERMS = ["research-only", "academic lab", "tutorial", "student"]
+PROMPT_TERMS = ["chatgpt", "prompt engineering", "wrapper"]
 
 def extract_matched_terms(text, term_list):
     matched = []
