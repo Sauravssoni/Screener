@@ -80,7 +80,8 @@ python3 -m src.redrob_ranker.validation --candidates data/candidates.jsonl --sub
 python3 scripts/forensic_audit.py --csv submissions/submission.csv --jsonl data/candidates.jsonl --out reports/final_ranking_audit.md
 
 npm install
-npm run dev
+npm run dev         # local-only dashboard
+npm run dev:network # only for intentional LAN demo
 
 streamlit run sandbox_app.py
 ```
