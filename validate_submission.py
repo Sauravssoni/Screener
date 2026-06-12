@@ -1,5 +1,6 @@
 import argparse
 import csv
+import os
 
 
 def main():
@@ -14,6 +15,8 @@ def main():
     sub_file = args.submission or args.submission_positional
     if not sub_file:
         parser.error("the following arguments are required: submission")
+
+    assert os.path.getsize(sub_file) <= 5 * 1024 * 1024, "File exceeds 5MB limit"
 
     with open(sub_file, "r", encoding="utf-8") as f:
         reader = csv.DictReader(f)
