@@ -12,7 +12,12 @@ export default function App() {
         if (!res.ok) throw new Error("Run ranking pipeline first");
         return res.json();
       })
-      .then((data) => setCandidates(data))
+      .then((data) => {
+        setCandidates(data);
+        if (data.length > 0) {
+          setSelectedCandidate(data[0]);
+        }
+      })
       .catch((err) => console.log(err));
 
     fetch("/reports/run_summary.json")
@@ -27,12 +32,9 @@ export default function App() {
   }, []);
 
   const handleStatusChange = (candidateId, newStatus) => {
-    // Optimistic UI update
     setReviewQueue((prev) =>
       prev.map(c => c.candidate_id === candidateId ? { ...c, status: newStatus } : c)
     );
-    // Note: In a real system we would POST to a backend here.
-    // For this static demo we update React state, mirroring demo-safe actions.
   };
 
   const getStatusForCandidate = (id) => {
@@ -48,6 +50,9 @@ export default function App() {
     );
   }
 
+  // Detect synthetic cluster if the top two candidates have the same score and reasoning prefix
+  const hasSyntheticCluster = candidates.length > 1 && candidates[0].score === candidates[1].score;
+
   return (
     <div className="flex flex-col h-screen w-full bg-slate-50 text-slate-800 font-sans border-t-4 border-emerald-600 overflow-hidden">
       {/* HEADER */}
@@ -60,7 +65,7 @@ export default function App() {
         <div className="flex gap-6">
           <div className="bg-slate-50 rounded border border-slate-200 px-4 py-2 flex flex-col items-start min-w-32">
             <span className="text-xs uppercase text-slate-500 font-semibold mb-1">Candidates Processed</span>
-            <span className="font-mono text-lg text-slate-900">{summary.candidates_processed.toLocaleString()}</span>
+            <span className="font-mono text-lg text-slate-900">{summary.candidates_processed?.toLocaleString() || summary.candidates_processed}</span>
           </div>
           <div className="bg-slate-50 rounded border border-slate-200 px-4 py-2 flex flex-col items-start min-w-32">
             <span className="text-xs uppercase text-slate-500 font-semibold mb-1">Runtime</span>
@@ -136,6 +141,12 @@ export default function App() {
         <section className="flex-1 flex flex-col bg-slate-50 min-w-0 border-r border-slate-200">
           <div className="p-6 pb-2">
             <h2 className="text-lg font-semibold text-slate-800">Ranked Shortlist (Top 10)</h2>
+            {hasSyntheticCluster && (
+              <div className="mt-2 bg-blue-50 border border-blue-200 text-blue-800 px-4 py-2 rounded text-sm">
+                <strong>Synthetic benchmark cluster detected:</strong> multiple top-ranked candidates share the same high-fit template. Ranking uses deterministic score + candidate_id tie-break. <br/>
+                <em>Equal-score candidates are ordered by candidate_id ascending for deterministic submission compliance.</em>
+              </div>
+            )}
           </div>
           
           <div className="flex-1 overflow-auto p-6 pt-0">
@@ -214,14 +225,16 @@ export default function App() {
                   </p>
                 </div>
 
-                <div className="grid grid-cols-2 gap-4">
-                  <div className="bg-slate-50 p-3 rounded border border-slate-100">
-                    <h3 className="text-xs font-semibold text-slate-500 uppercase tracking-wide mb-1">Production Evidence</h3>
-                    <p className="font-mono text-slate-800 text-sm">Found {selectedCandidate.evidence_tags?.[1]?.split(': ')[1] || 0} signals</p>
-                  </div>
-                  <div className="bg-slate-50 p-3 rounded border border-slate-100">
-                    <h3 className="text-xs font-semibold text-slate-500 uppercase tracking-wide mb-1">Eval Evidence</h3>
-                    <p className="font-mono text-slate-800 text-sm">Found {selectedCandidate.evidence_tags?.[2]?.split(': ')[1] || 0} signals</p>
+                <div>
+                  <h3 className="text-sm font-semibold text-slate-800 mb-2">Feature Contribution</h3>
+                  <div className="grid grid-cols-2 gap-2 text-sm text-slate-600">
+                    <div className="bg-slate-50 p-2 rounded border border-slate-100 flex justify-between"><span>Core AI:</span> <span className="font-mono font-medium">{selectedCandidate.features?.ai_score || 0}</span></div>
+                    <div className="bg-slate-50 p-2 rounded border border-slate-100 flex justify-between"><span>Prod:</span> <span className="font-mono font-medium">{selectedCandidate.features?.prod_score || 0}</span></div>
+                    <div className="bg-slate-50 p-2 rounded border border-slate-100 flex justify-between"><span>Eval:</span> <span className="font-mono font-medium">{selectedCandidate.features?.eval_score || 0}</span></div>
+                    <div className="bg-slate-50 p-2 rounded border border-slate-100 flex justify-between"><span>Python:</span> <span className="font-mono font-medium">{selectedCandidate.features?.python_score || 0}</span></div>
+                    <div className="bg-slate-50 p-2 rounded border border-slate-100 flex justify-between"><span>Behavior:</span> <span className="font-mono font-medium">{selectedCandidate.features?.behavioral_score || 0}</span></div>
+                    <div className="bg-slate-50 p-2 rounded border border-slate-100 flex justify-between"><span>Location:</span> <span className="font-mono font-medium">{selectedCandidate.features?.location_score || 0}</span></div>
+                    <div className="bg-slate-50 p-2 rounded border border-slate-100 flex justify-between col-span-2"><span>Risk Penalty:</span> <span className="font-mono font-medium text-amber-600">-{selectedCandidate.features?.penalty || 0}</span></div>
                   </div>
                 </div>
 
@@ -241,6 +254,7 @@ export default function App() {
 
               <div className="mt-8 pt-6 border-t border-slate-100 flex flex-col gap-3">
                 <h3 className="text-xs font-semibold text-slate-500 uppercase tracking-wide text-center">Human Review Checkpoint</h3>
+                <div className="text-[10px] text-center text-slate-400 uppercase tracking-wider mb-1">Local demo state - no outreach sent</div>
                 <div className="grid grid-cols-3 gap-2">
                   <button
                     onClick={() => handleStatusChange(selectedCandidate.candidate_id, "approved")}
@@ -276,3 +290,4 @@ export default function App() {
     </div>
   );
 }
+
