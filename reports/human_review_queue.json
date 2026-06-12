@@ -2,25 +2,44 @@
   {
     "candidate_id": "CAND_0000003",
     "rank": 1,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -33,32 +52,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
     "candidate_id": "CAND_0000005",
     "rank": 2,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -71,32 +109,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
     "candidate_id": "CAND_0000007",
     "rank": 3,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -109,32 +166,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000203",
+    "candidate_id": "CAND_0000009",
     "rank": 4,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -147,32 +223,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000205",
+    "candidate_id": "CAND_0000011",
     "rank": 5,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -185,32 +280,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000207",
+    "candidate_id": "CAND_0000013",
     "rank": 6,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -223,32 +337,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000209",
+    "candidate_id": "CAND_0000015",
     "rank": 7,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -261,32 +394,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000211",
+    "candidate_id": "CAND_0000017",
     "rank": 8,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -299,32 +451,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000213",
+    "candidate_id": "CAND_0000019",
     "rank": 9,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -337,32 +508,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000215",
+    "candidate_id": "CAND_0000021",
     "rank": 10,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -375,32 +565,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000217",
+    "candidate_id": "CAND_0000023",
     "rank": 11,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -413,32 +622,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000219",
+    "candidate_id": "CAND_0000025",
     "rank": 12,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -451,32 +679,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000221",
+    "candidate_id": "CAND_0000027",
     "rank": 13,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -489,32 +736,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000223",
+    "candidate_id": "CAND_0000029",
     "rank": 14,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -527,32 +793,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000225",
+    "candidate_id": "CAND_0000031",
     "rank": 15,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -565,32 +850,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000227",
+    "candidate_id": "CAND_0000033",
     "rank": 16,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -603,32 +907,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000229",
+    "candidate_id": "CAND_0000035",
     "rank": 17,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -641,32 +964,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000231",
+    "candidate_id": "CAND_0000037",
     "rank": 18,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -679,32 +1021,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000233",
+    "candidate_id": "CAND_0000039",
     "rank": 19,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -717,32 +1078,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000235",
+    "candidate_id": "CAND_0000041",
     "rank": 20,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -755,32 +1135,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000237",
+    "candidate_id": "CAND_0000043",
     "rank": 21,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -793,32 +1192,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000239",
+    "candidate_id": "CAND_0000045",
     "rank": 22,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -831,32 +1249,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000241",
+    "candidate_id": "CAND_0000047",
     "rank": 23,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -869,32 +1306,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000243",
+    "candidate_id": "CAND_0000049",
     "rank": 24,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -907,32 +1363,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000245",
+    "candidate_id": "CAND_0000051",
     "rank": 25,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -945,32 +1420,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000247",
+    "candidate_id": "CAND_0000053",
     "rank": 26,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -983,32 +1477,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000249",
+    "candidate_id": "CAND_0000055",
     "rank": 27,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -1021,32 +1534,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000251",
+    "candidate_id": "CAND_0000057",
     "rank": 28,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -1059,32 +1591,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000253",
+    "candidate_id": "CAND_0000059",
     "rank": 29,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -1097,32 +1648,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000255",
+    "candidate_id": "CAND_0000061",
     "rank": 30,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -1135,32 +1705,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000257",
+    "candidate_id": "CAND_0000063",
     "rank": 31,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -1173,32 +1762,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000259",
+    "candidate_id": "CAND_0000065",
     "rank": 32,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -1211,32 +1819,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000261",
+    "candidate_id": "CAND_0000067",
     "rank": 33,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -1249,32 +1876,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000263",
+    "candidate_id": "CAND_0000069",
     "rank": 34,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -1287,32 +1933,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000265",
+    "candidate_id": "CAND_0000071",
     "rank": 35,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -1325,32 +1990,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000267",
+    "candidate_id": "CAND_0000073",
     "rank": 36,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -1363,32 +2047,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000269",
+    "candidate_id": "CAND_0000075",
     "rank": 37,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -1401,32 +2104,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000271",
+    "candidate_id": "CAND_0000077",
     "rank": 38,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -1439,32 +2161,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000273",
+    "candidate_id": "CAND_0000079",
     "rank": 39,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -1477,32 +2218,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000275",
+    "candidate_id": "CAND_0000081",
     "rank": 40,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -1515,32 +2275,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000277",
+    "candidate_id": "CAND_0000083",
     "rank": 41,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -1553,32 +2332,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000279",
+    "candidate_id": "CAND_0000085",
     "rank": 42,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -1591,32 +2389,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000281",
+    "candidate_id": "CAND_0000087",
     "rank": 43,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -1629,32 +2446,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000283",
+    "candidate_id": "CAND_0000089",
     "rank": 44,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -1667,32 +2503,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000285",
+    "candidate_id": "CAND_0000091",
     "rank": 45,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -1705,32 +2560,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000287",
+    "candidate_id": "CAND_0000093",
     "rank": 46,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -1743,32 +2617,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000289",
+    "candidate_id": "CAND_0000095",
     "rank": 47,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -1781,32 +2674,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000291",
+    "candidate_id": "CAND_0000097",
     "rank": 48,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -1819,32 +2731,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000293",
+    "candidate_id": "CAND_0000099",
     "rank": 49,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -1857,32 +2788,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000295",
+    "candidate_id": "CAND_0000101",
     "rank": 50,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -1895,32 +2845,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000297",
+    "candidate_id": "CAND_0000103",
     "rank": 51,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -1933,32 +2902,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000299",
+    "candidate_id": "CAND_0000105",
     "rank": 52,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -1971,32 +2959,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000301",
+    "candidate_id": "CAND_0000107",
     "rank": 53,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -2009,32 +3016,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000303",
+    "candidate_id": "CAND_0000109",
     "rank": 54,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -2047,32 +3073,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000305",
+    "candidate_id": "CAND_0000111",
     "rank": 55,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -2085,32 +3130,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000307",
+    "candidate_id": "CAND_0000113",
     "rank": 56,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -2123,32 +3187,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000309",
+    "candidate_id": "CAND_0000115",
     "rank": 57,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -2161,32 +3244,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000311",
+    "candidate_id": "CAND_0000117",
     "rank": 58,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -2199,32 +3301,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000313",
+    "candidate_id": "CAND_0000119",
     "rank": 59,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -2237,32 +3358,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000315",
+    "candidate_id": "CAND_0000121",
     "rank": 60,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -2275,32 +3415,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000317",
+    "candidate_id": "CAND_0000123",
     "rank": 61,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -2313,32 +3472,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000319",
+    "candidate_id": "CAND_0000125",
     "rank": 62,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -2351,32 +3529,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000321",
+    "candidate_id": "CAND_0000127",
     "rank": 63,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -2389,32 +3586,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000323",
+    "candidate_id": "CAND_0000129",
     "rank": 64,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -2427,32 +3643,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000325",
+    "candidate_id": "CAND_0000131",
     "rank": 65,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -2465,32 +3700,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000327",
+    "candidate_id": "CAND_0000133",
     "rank": 66,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -2503,32 +3757,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000329",
+    "candidate_id": "CAND_0000135",
     "rank": 67,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -2541,32 +3814,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000331",
+    "candidate_id": "CAND_0000137",
     "rank": 68,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -2579,32 +3871,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000333",
+    "candidate_id": "CAND_0000139",
     "rank": 69,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -2617,32 +3928,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000335",
+    "candidate_id": "CAND_0000141",
     "rank": 70,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -2655,32 +3985,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000337",
+    "candidate_id": "CAND_0000143",
     "rank": 71,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -2693,32 +4042,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000339",
+    "candidate_id": "CAND_0000145",
     "rank": 72,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -2731,32 +4099,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000341",
+    "candidate_id": "CAND_0000147",
     "rank": 73,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -2769,32 +4156,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000343",
+    "candidate_id": "CAND_0000149",
     "rank": 74,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -2807,32 +4213,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000345",
+    "candidate_id": "CAND_0000151",
     "rank": 75,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -2845,32 +4270,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000347",
+    "candidate_id": "CAND_0000153",
     "rank": 76,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -2883,32 +4327,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000349",
+    "candidate_id": "CAND_0000155",
     "rank": 77,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -2921,32 +4384,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000351",
+    "candidate_id": "CAND_0000157",
     "rank": 78,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -2959,32 +4441,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000353",
+    "candidate_id": "CAND_0000159",
     "rank": 79,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -2997,32 +4498,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000355",
+    "candidate_id": "CAND_0000161",
     "rank": 80,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -3035,32 +4555,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000357",
+    "candidate_id": "CAND_0000163",
     "rank": 81,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -3073,32 +4612,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000359",
+    "candidate_id": "CAND_0000165",
     "rank": 82,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -3111,32 +4669,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000361",
+    "candidate_id": "CAND_0000167",
     "rank": 83,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -3149,32 +4726,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000363",
+    "candidate_id": "CAND_0000169",
     "rank": 84,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -3187,32 +4783,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000365",
+    "candidate_id": "CAND_0000171",
     "rank": 85,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -3225,32 +4840,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000367",
+    "candidate_id": "CAND_0000173",
     "rank": 86,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -3263,32 +4897,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000369",
+    "candidate_id": "CAND_0000175",
     "rank": 87,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -3301,32 +4954,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000371",
+    "candidate_id": "CAND_0000177",
     "rank": 88,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -3339,32 +5011,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000373",
+    "candidate_id": "CAND_0000179",
     "rank": 89,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -3377,32 +5068,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000375",
+    "candidate_id": "CAND_0000181",
     "rank": 90,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -3415,32 +5125,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000377",
+    "candidate_id": "CAND_0000183",
     "rank": 91,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -3453,32 +5182,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000379",
+    "candidate_id": "CAND_0000185",
     "rank": 92,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -3491,32 +5239,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000381",
+    "candidate_id": "CAND_0000187",
     "rank": 93,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -3529,32 +5296,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000383",
+    "candidate_id": "CAND_0000189",
     "rank": 94,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -3567,32 +5353,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000385",
+    "candidate_id": "CAND_0000191",
     "rank": 95,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -3605,32 +5410,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000387",
+    "candidate_id": "CAND_0000193",
     "rank": 96,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -3643,32 +5467,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000389",
+    "candidate_id": "CAND_0000195",
     "rank": 97,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -3681,32 +5524,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000391",
+    "candidate_id": "CAND_0000197",
     "rank": 98,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -3719,32 +5581,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000393",
+    "candidate_id": "CAND_0000199",
     "rank": 99,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -3757,32 +5638,51 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   },
   {
-    "candidate_id": "CAND_0000395",
+    "candidate_id": "CAND_0000201",
     "rank": 100,
-    "score": 0.7628320000000001,
+    "score": 0.6782133333333333,
     "status": "pending_review",
     "risk_flags": [],
     "evidence": {
       "features": {
-        "core_ai_count": 5,
-        "production_count": 3,
-        "evaluation_count": 1,
+        "core_ai_terms": [
+          "recommendation systems",
+          "learning-to-rank",
+          "relevance",
+          "nlp",
+          "ranking",
+          "retrieval",
+          "faiss",
+          "pinecone",
+          "transformers"
+        ],
+        "core_ai_count": 9,
+        "production_terms": [
+          "deployment",
+          "production"
+        ],
+        "production_count": 2,
+        "evaluation_terms": [],
+        "evaluation_count": 0,
+        "python_systems_terms": [],
         "python_systems_count": 0,
+        "yoe": 6.0,
         "yoe_ideal": 1,
         "yoe_too_junior": 0,
-        "yoe_too_senior": 0,
+        "is_non_tech": 0,
         "is_manager_only": 0,
         "is_research_only": 0,
+        "is_prompt_only": 0,
         "profile_completeness": 0.8340000000000001,
         "response_rate": 0.91,
         "github_active": 1,
         "open_to_work": 1,
-        "ideal_location": 0,
+        "ideal_location": 1,
         "willing_to_relocate": 1
       },
       "skills_found": [
@@ -3795,8 +5695,8 @@
       "location": "Hyderabad, Telangana",
       "availability_notice_days": 60,
       "yoe": 6.0,
-      "production_evidence_count": 3,
-      "evaluation_evidence_count": 1
+      "production_evidence_count": 2,
+      "evaluation_evidence_count": 0
     }
   }
 ]

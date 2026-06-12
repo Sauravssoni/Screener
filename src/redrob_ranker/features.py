@@ -1,85 +1,41 @@
 from src.redrob_ranker.text import count_terms, normalize_text
+import re
 
 CORE_AI_TERMS = [
-    "embeddings",
-    "vector search",
-    "semantic search",
-    "hybrid search",
-    "retrieval",
-    "ranking",
-    "recommender systems",
-    "search relevance",
-    "information retrieval",
-    "faiss",
-    "milvus",
-    "qdrant",
-    "pinecone",
-    "weaviate",
-    "elasticsearch",
-    "opensearch",
-    "bm25",
-    "ann",
-    "hnsw",
-    "rag",
-    "sentence-transformers",
-    "bge",
-    "e5",
-    "llm ranking",
-    "learning-to-rank",
+    "rag", "vector search", "semantic search", "hybrid search", "bm25",
+    "faiss", "pinecone", "qdrant", "weaviate", "elasticsearch", "opensearch",
+    "recommender systems", "recommendation systems", "learning-to-rank", "personalization", "relevance",
+    "nlp", "transformers", "sentence-transformers", "hugging face", "fine-tuning", "peft", "qlora",
+    "ranking", "retrieval", "llm"
 ]
 
 PRODUCTION_TERMS = [
-    "production",
-    "deployed",
-    "real users",
-    "latency",
-    "monitoring",
-    "online",
-    "a/b testing",
-    "index refresh",
-    "serving",
-    "mlops",
-    "on-call",
-    "feature pipeline",
-    "quality regression",
-    "model deployment",
+    "mlops", "deployment", "model serving", "latency", "monitoring", "pipelines",
+    "docker", "kubernetes", "mlflow", "airflow", "fastapi", "production"
 ]
 
 EVALUATION_TERMS = [
-    "ndcg",
-    "map",
-    "mrr",
-    "ranking metrics",
-    "offline benchmark",
-    "online experiment",
-    "a/b test",
-    "relevance labels",
-    "recruiter feedback",
-    "click model",
-    "evaluation framework",
+    "ndcg", "map", "mrr", "precision", "recall", "offline benchmark", "a-b testing", "a/b testing",
+    "experimentation", "feedback loops"
 ]
 
 PYTHON_SYSTEMS_TERMS = [
-    "python",
-    "fastapi",
-    "pandas",
-    "numpy",
-    "pytorch",
-    "scikit-learn",
-    "airflow",
-    "spark",
-    "kafka",
-    "docker",
-    "kubernetes",
-    "aws",
-    "gcp",
-    "distributed systems",
-    "large-scale inference",
-    "batch pipelines",
+    "python", "sql", "spark", "kafka", "redis", "postgres", "snowflake", "dbt"
 ]
 
-NEGATIVE_TERMS = ["research-only", "academic lab", "tutorial", "demo", "prototype", "kaggle"]
+NON_TECH_ROLES = ["customer support", "accountant", "civil engineer", "content writer", "operations manager", "hr", "sales"]
+MANAGER_ROLES = ["director", "vp", "manager", "head"]
+RESEARCH_TERMS = ["research-only", "academic lab", "tutorial"]
+PROMPT_TERMS = ["chatgpt", "prompt engineering"]
 
+def extract_matched_terms(text, term_list):
+    matched = []
+    text_lower = normalize_text(text)
+    for term in term_list:
+        if term in text_lower:
+            if re.search(r"\b" + re.escape(term) + r"\b", text_lower):
+                matched.append(term)
+    return matched
 
 def extract_features(candidate):
     prof = candidate.get("profile", {})
@@ -87,82 +43,75 @@ def extract_features(candidate):
     skills = candidate.get("skills", [])
     signals = candidate.get("redrob_signals", {})
 
-    # Text pool
     career_texts = [h.get("description", "") for h in history if h.get("description")]
-    # career_titles = [h.get('title', '') for h in history]
     full_text = " ".join(career_texts) + " " + prof.get("summary", "") + " " + prof.get("headline", "")
-
-    # Hard skills from list
-    skill_names = [s.get("name", "").lower() for s in skills]
-
+    
+    skill_names_lower = [s.get("name", "").lower() for s in skills]
+    
     features = {}
 
-    # 1. Core AI Retrieval
-    features["core_ai_count"] = count_terms(full_text, CORE_AI_TERMS) + sum(
-        1 for s in skill_names if any(t in s for t in CORE_AI_TERMS)
-    )
+    ai_matches = extract_matched_terms(full_text, CORE_AI_TERMS)
+    for skill in skill_names_lower:
+        for term in CORE_AI_TERMS:
+            if term in skill and term not in ai_matches:
+                ai_matches.append(term)
+    features["core_ai_terms"] = ai_matches
+    features["core_ai_count"] = len(ai_matches)
 
-    # 2. Production
-    features["production_count"] = count_terms(full_text, PRODUCTION_TERMS)
+    prod_matches = extract_matched_terms(full_text, PRODUCTION_TERMS)
+    features["production_terms"] = prod_matches
+    features["production_count"] = len(prod_matches)
 
-    # 3. Evaluation
-    features["evaluation_count"] = count_terms(full_text, EVALUATION_TERMS)
+    eval_matches = extract_matched_terms(full_text, EVALUATION_TERMS)
+    features["evaluation_terms"] = eval_matches
+    features["evaluation_count"] = len(eval_matches)
 
-    # 4. Python/Systems
-    features["python_systems_count"] = count_terms(full_text, PYTHON_SYSTEMS_TERMS) + sum(
-        1 for s in skill_names if any(t in s for t in PYTHON_SYSTEMS_TERMS)
-    )
+    py_matches = extract_matched_terms(full_text, PYTHON_SYSTEMS_TERMS)
+    for skill in skill_names_lower:
+        for term in PYTHON_SYSTEMS_TERMS:
+            if term in skill and term not in py_matches:
+                py_matches.append(term)
+    features["python_systems_terms"] = py_matches
+    features["python_systems_count"] = len(py_matches)
 
-    # 5. Career Shape
     yoe = prof.get("years_of_experience", 0)
+    features["yoe"] = yoe
     features["yoe_ideal"] = 1 if 4 <= yoe <= 12 else 0
     features["yoe_too_junior"] = 1 if yoe < 3 else 0
-    features["yoe_too_senior"] = 1 if yoe > 15 else 0
-
+    
     curr_title = normalize_text(prof.get("current_title", ""))
-    features["is_manager_only"] = (
-        1 if "manager" in curr_title and not any(t in curr_title for t in ["engineer", "data", "applied"]) else 0
-    )
-    features["is_research_only"] = count_terms(full_text, NEGATIVE_TERMS)
+    
+    # Check negatives
+    features["is_non_tech"] = 1 if any(t in curr_title for t in NON_TECH_ROLES) else 0
+    features["is_manager_only"] = 1 if any(m in curr_title for m in MANAGER_ROLES) and not any(t in curr_title for t in ["engineer", "data", "applied", "ml", "scientist"]) else 0
+    features["is_research_only"] = 1 if extract_matched_terms(full_text, RESEARCH_TERMS) else 0
+    features["is_prompt_only"] = 1 if extract_matched_terms(full_text, PROMPT_TERMS) and features["core_ai_count"] < 2 else 0
 
-    # 6. Behavioral
     features["profile_completeness"] = signals.get("profile_completeness_score", 0) / 100.0
     features["response_rate"] = signals.get("recruiter_response_rate", 0)
     features["github_active"] = 1 if signals.get("github_activity_score", -1) > 10 else 0
     features["open_to_work"] = 1 if signals.get("open_to_work_flag", False) else 0
 
-    # 7. Location
     loc = normalize_text(prof.get("location", ""))
-    features["ideal_location"] = (
-        1 if any(city in loc for city in ["pune", "noida", "delhi", "gurgaon", "bangalore", "bengaluru"]) else 0
-    )
+    features["ideal_location"] = 1 if any(city in loc for city in ["pune", "noida", "delhi", "gurgaon", "bangalore", "bengaluru", "hyderabad", "chennai", "mumbai"]) else 0
     features["willing_to_relocate"] = 1 if signals.get("willing_to_relocate", False) else 0
 
     return features
 
-
 def detect_traps(candidate, features):
     traps = 0
-    # 1. Expert skills with tiny duration
     skills = candidate.get("skills", [])
     for s in skills:
         if s.get("proficiency") == "expert" and s.get("duration_months", 0) < 6:
             traps += 1
 
-    # 2. Many core AI skills but zero production verbs
     if features["core_ai_count"] > 5 and features["production_count"] == 0:
-        traps += 2
+        traps += 1
 
-    # 3. YOE inconsistency (sum of career vs declared YOE)
     history = candidate.get("career_history", [])
     sum_months = sum(h.get("duration_months", 0) for h in history)
     declared_months = candidate.get("profile", {}).get("years_of_experience", 0) * 12
-    if abs(sum_months - declared_months) > 24:  # Allowing 2 years gap
+    if abs(sum_months - declared_months) > 36:
         traps += 1
-
-    # 4. Bad availability
-    signals = candidate.get("redrob_signals", {})
-    if signals.get("notice_period_days", 0) > 60 and not signals.get("open_to_work_flag", False):
-        traps += 1
-
+        
     return traps

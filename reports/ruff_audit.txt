@@ -1,0 +1,11 @@
+F401 [*] `src.redrob_ranker.text.count_terms` imported but unused
+ --> src/redrob_ranker/features.py:1:36
+  |
+1 | from src.redrob_ranker.text import count_terms, normalize_text
+  |                                    ^^^^^^^^^^^
+2 | import re
+  |
+help: Remove unused import: `src.redrob_ranker.text.count_terms`
+
+Found 1 error.
+[*] 1 fixable with the `--fix` option.

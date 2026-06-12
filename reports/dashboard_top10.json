@@ -2,13 +2,13 @@
   {
     "rank": 1,
     "candidate_id": "CAND_0000003",
-    "score": "0.7628",
+    "score": "0.6782",
     "fit_band": "Strong",
-    "reasoning": "Strong AI search fit: profile evidence includes 5 core AI terms (e.g. Go, MLflow, FAISS, Pinecone, Sentence Transformers) in Hyderabad, Telangana with 6.0 YOE, 0 python systems, and 0.83 completeness for Recommendation Systems Engineer. Shows production indicators (3 terms) around deployed retrieval and monitoring. Has evaluation expertise (e.g. NDCG, MAP, offline benchmark). Redrob signals show a 91% response rate.",
+    "reasoning": "Candidate is a Recommendation Systems Engineer with 6.0 YOE in Hyderabad, Telangana. Strong AI fit with 9 core terms (matched: recommendation systems, learning-to-rank, relevance). Shows solid production shipping indicators (e.g. deployment, production). High Redrob response rate (91%). [Ref: CAND_0000003]",
     "evidence_tags": [
-      "AI: 5",
-      "Prod: 3",
-      "Eval: 1"
+      "AI: 9",
+      "Prod: 2",
+      "Eval: 0"
     ],
     "risk_flags": [],
     "review_status": "pending_review"
@@ -16,13 +16,13 @@
   {
     "rank": 2,
     "candidate_id": "CAND_0000005",
-    "score": "0.7628",
+    "score": "0.6782",
     "fit_band": "Strong",
-    "reasoning": "Strong AI search fit: profile evidence includes 5 core AI terms (e.g. Go, MLflow, FAISS, Pinecone, Sentence Transformers) in Hyderabad, Telangana with 6.0 YOE, 0 python systems, and 0.83 completeness for Recommendation Systems Engineer. Shows production indicators (3 terms) around deployed retrieval and monitoring. Has evaluation expertise (e.g. NDCG, MAP, offline benchmark). Redrob signals show a 91% response rate.",
+    "reasoning": "Candidate is a Recommendation Systems Engineer with 6.0 YOE in Hyderabad, Telangana. Strong AI fit with 9 core terms (matched: recommendation systems, learning-to-rank, relevance). Shows solid production shipping indicators (e.g. deployment, production). High Redrob response rate (91%). [Ref: CAND_0000005]",
     "evidence_tags": [
-      "AI: 5",
-      "Prod: 3",
-      "Eval: 1"
+      "AI: 9",
+      "Prod: 2",
+      "Eval: 0"
     ],
     "risk_flags": [],
     "review_status": "pending_review"
@@ -30,111 +30,111 @@
   {
     "rank": 3,
     "candidate_id": "CAND_0000007",
-    "score": "0.7628",
+    "score": "0.6782",
     "fit_band": "Strong",
-    "reasoning": "Strong AI search fit: profile evidence includes 5 core AI terms (e.g. Go, MLflow, FAISS, Pinecone, Sentence Transformers) in Hyderabad, Telangana with 6.0 YOE, 0 python systems, and 0.83 completeness for Recommendation Systems Engineer. Shows production indicators (3 terms) around deployed retrieval and monitoring. Has evaluation expertise (e.g. NDCG, MAP, offline benchmark). Redrob signals show a 91% response rate.",
+    "reasoning": "Candidate is a Recommendation Systems Engineer with 6.0 YOE in Hyderabad, Telangana. Strong AI fit with 9 core terms (matched: recommendation systems, learning-to-rank, relevance). Shows solid production shipping indicators (e.g. deployment, production). High Redrob response rate (91%). [Ref: CAND_0000007]",
     "evidence_tags": [
-      "AI: 5",
-      "Prod: 3",
-      "Eval: 1"
+      "AI: 9",
+      "Prod: 2",
+      "Eval: 0"
     ],
     "risk_flags": [],
     "review_status": "pending_review"
   },
   {
     "rank": 4,
-    "candidate_id": "CAND_0000203",
-    "score": "0.7628",
+    "candidate_id": "CAND_0000009",
+    "score": "0.6782",
     "fit_band": "Strong",
-    "reasoning": "Strong AI search fit: profile evidence includes 5 core AI terms (e.g. Go, MLflow, FAISS, Pinecone, Sentence Transformers) in Hyderabad, Telangana with 6.0 YOE, 0 python systems, and 0.83 completeness for Recommendation Systems Engineer. Shows production indicators (3 terms) around deployed retrieval and monitoring. Has evaluation expertise (e.g. NDCG, MAP, offline benchmark). Redrob signals show a 91% response rate.",
+    "reasoning": "Candidate is a Recommendation Systems Engineer with 6.0 YOE in Hyderabad, Telangana. Strong AI fit with 9 core terms (matched: recommendation systems, learning-to-rank, relevance). Shows solid production shipping indicators (e.g. deployment, production). High Redrob response rate (91%). [Ref: CAND_0000009]",
     "evidence_tags": [
-      "AI: 5",
-      "Prod: 3",
-      "Eval: 1"
+      "AI: 9",
+      "Prod: 2",
+      "Eval: 0"
     ],
     "risk_flags": [],
     "review_status": "pending_review"
   },
   {
     "rank": 5,
-    "candidate_id": "CAND_0000205",
-    "score": "0.7628",
+    "candidate_id": "CAND_0000011",
+    "score": "0.6782",
     "fit_band": "Strong",
-    "reasoning": "Strong AI search fit: profile evidence includes 5 core AI terms (e.g. Go, MLflow, FAISS, Pinecone, Sentence Transformers) in Hyderabad, Telangana with 6.0 YOE, 0 python systems, and 0.83 completeness for Recommendation Systems Engineer. Shows production indicators (3 terms) around deployed retrieval and monitoring. Has evaluation expertise (e.g. NDCG, MAP, offline benchmark). Redrob signals show a 91% response rate.",
+    "reasoning": "Candidate is a Recommendation Systems Engineer with 6.0 YOE in Hyderabad, Telangana. Strong AI fit with 9 core terms (matched: recommendation systems, learning-to-rank, relevance). Shows solid production shipping indicators (e.g. deployment, production). High Redrob response rate (91%). [Ref: CAND_0000011]",
     "evidence_tags": [
-      "AI: 5",
-      "Prod: 3",
-      "Eval: 1"
+      "AI: 9",
+      "Prod: 2",
+      "Eval: 0"
     ],
     "risk_flags": [],
     "review_status": "pending_review"
   },
   {
     "rank": 6,
-    "candidate_id": "CAND_0000207",
-    "score": "0.7628",
+    "candidate_id": "CAND_0000013",
+    "score": "0.6782",
     "fit_band": "Strong",
-    "reasoning": "Strong AI search fit: profile evidence includes 5 core AI terms (e.g. Go, MLflow, FAISS, Pinecone, Sentence Transformers) in Hyderabad, Telangana with 6.0 YOE, 0 python systems, and 0.83 completeness for Recommendation Systems Engineer. Shows production indicators (3 terms) around deployed retrieval and monitoring. Has evaluation expertise (e.g. NDCG, MAP, offline benchmark). Redrob signals show a 91% response rate.",
+    "reasoning": "Candidate is a Recommendation Systems Engineer with 6.0 YOE in Hyderabad, Telangana. Strong AI fit with 9 core terms (matched: recommendation systems, learning-to-rank, relevance). Shows solid production shipping indicators (e.g. deployment, production). High Redrob response rate (91%). [Ref: CAND_0000013]",
     "evidence_tags": [
-      "AI: 5",
-      "Prod: 3",
-      "Eval: 1"
+      "AI: 9",
+      "Prod: 2",
+      "Eval: 0"
     ],
     "risk_flags": [],
     "review_status": "pending_review"
   },
   {
     "rank": 7,
-    "candidate_id": "CAND_0000209",
-    "score": "0.7628",
+    "candidate_id": "CAND_0000015",
+    "score": "0.6782",
     "fit_band": "Strong",
-    "reasoning": "Strong AI search fit: profile evidence includes 5 core AI terms (e.g. Go, MLflow, FAISS, Pinecone, Sentence Transformers) in Hyderabad, Telangana with 6.0 YOE, 0 python systems, and 0.83 completeness for Recommendation Systems Engineer. Shows production indicators (3 terms) around deployed retrieval and monitoring. Has evaluation expertise (e.g. NDCG, MAP, offline benchmark). Redrob signals show a 91% response rate.",
+    "reasoning": "Candidate is a Recommendation Systems Engineer with 6.0 YOE in Hyderabad, Telangana. Strong AI fit with 9 core terms (matched: recommendation systems, learning-to-rank, relevance). Shows solid production shipping indicators (e.g. deployment, production). High Redrob response rate (91%). [Ref: CAND_0000015]",
     "evidence_tags": [
-      "AI: 5",
-      "Prod: 3",
-      "Eval: 1"
+      "AI: 9",
+      "Prod: 2",
+      "Eval: 0"
     ],
     "risk_flags": [],
     "review_status": "pending_review"
   },
   {
     "rank": 8,
-    "candidate_id": "CAND_0000211",
-    "score": "0.7628",
+    "candidate_id": "CAND_0000017",
+    "score": "0.6782",
     "fit_band": "Strong",
-    "reasoning": "Strong AI search fit: profile evidence includes 5 core AI terms (e.g. Go, MLflow, FAISS, Pinecone, Sentence Transformers) in Hyderabad, Telangana with 6.0 YOE, 0 python systems, and 0.83 completeness for Recommendation Systems Engineer. Shows production indicators (3 terms) around deployed retrieval and monitoring. Has evaluation expertise (e.g. NDCG, MAP, offline benchmark). Redrob signals show a 91% response rate.",
+    "reasoning": "Candidate is a Recommendation Systems Engineer with 6.0 YOE in Hyderabad, Telangana. Strong AI fit with 9 core terms (matched: recommendation systems, learning-to-rank, relevance). Shows solid production shipping indicators (e.g. deployment, production). High Redrob response rate (91%). [Ref: CAND_0000017]",
     "evidence_tags": [
-      "AI: 5",
-      "Prod: 3",
-      "Eval: 1"
+      "AI: 9",
+      "Prod: 2",
+      "Eval: 0"
     ],
     "risk_flags": [],
     "review_status": "pending_review"
   },
   {
     "rank": 9,
-    "candidate_id": "CAND_0000213",
-    "score": "0.7628",
+    "candidate_id": "CAND_0000019",
+    "score": "0.6782",
     "fit_band": "Strong",
-    "reasoning": "Strong AI search fit: profile evidence includes 5 core AI terms (e.g. Go, MLflow, FAISS, Pinecone, Sentence Transformers) in Hyderabad, Telangana with 6.0 YOE, 0 python systems, and 0.83 completeness for Recommendation Systems Engineer. Shows production indicators (3 terms) around deployed retrieval and monitoring. Has evaluation expertise (e.g. NDCG, MAP, offline benchmark). Redrob signals show a 91% response rate.",
+    "reasoning": "Candidate is a Recommendation Systems Engineer with 6.0 YOE in Hyderabad, Telangana. Strong AI fit with 9 core terms (matched: recommendation systems, learning-to-rank, relevance). Shows solid production shipping indicators (e.g. deployment, production). High Redrob response rate (91%). [Ref: CAND_0000019]",
     "evidence_tags": [
-      "AI: 5",
-      "Prod: 3",
-      "Eval: 1"
+      "AI: 9",
+      "Prod: 2",
+      "Eval: 0"
     ],
     "risk_flags": [],
     "review_status": "pending_review"
   },
   {
     "rank": 10,
-    "candidate_id": "CAND_0000215",
-    "score": "0.7628",
+    "candidate_id": "CAND_0000021",
+    "score": "0.6782",
     "fit_band": "Strong",
-    "reasoning": "Strong AI search fit: profile evidence includes 5 core AI terms (e.g. Go, MLflow, FAISS, Pinecone, Sentence Transformers) in Hyderabad, Telangana with 6.0 YOE, 0 python systems, and 0.83 completeness for Recommendation Systems Engineer. Shows production indicators (3 terms) around deployed retrieval and monitoring. Has evaluation expertise (e.g. NDCG, MAP, offline benchmark). Redrob signals show a 91% response rate.",
+    "reasoning": "Candidate is a Recommendation Systems Engineer with 6.0 YOE in Hyderabad, Telangana. Strong AI fit with 9 core terms (matched: recommendation systems, learning-to-rank, relevance). Shows solid production shipping indicators (e.g. deployment, production). High Redrob response rate (91%). [Ref: CAND_0000021]",
     "evidence_tags": [
-      "AI: 5",
-      "Prod: 3",
-      "Eval: 1"
+      "AI: 9",
+      "Prod: 2",
+      "Eval: 0"
     ],
     "risk_flags": [],
     "review_status": "pending_review"
