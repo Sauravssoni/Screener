@@ -3,12 +3,12 @@
   "mode": "cpu_only",
   "network_calls": false,
   "candidates_processed": 100000,
-  "runtime_seconds": 274.0,
-  "peak_memory_mb": 742,
+  "runtime_seconds": 83.0,
+  "peak_memory_mb": 1917,
   "validator_status": "passed",
   "submission_rows": 100,
-  "top100_trap_count": 0,
-  "global_trap_count": 0,
+  "top100_trap_count": 4,
+  "global_trap_count": 1944,
   "output_csv": "submissions/submission.csv",
   "human_checkpoint": "pending_shortlist_review"
 }

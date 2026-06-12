@@ -24,8 +24,8 @@ lines = []
 if uploaded_file is not None:
     content = uploaded_file.getvalue().decode("utf-8")
     lines = content.strip().split('\n')
-elif use_sample and os.path.exists("sample_candidates.jsonl"):
-    with open("sample_candidates.jsonl", "r", encoding="utf-8") as f:
+elif use_sample and os.path.exists("data/sample_candidates.jsonl"):
+    with open("data/sample_candidates.jsonl", "r", encoding="utf-8") as f:
         lines = f.read().strip().split('\n')
 
 if lines:

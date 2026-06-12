@@ -1,45 +1,38 @@
 # RedrobRank Agentic Recruiter OS
 
-A deterministic and explainable ranking engine for the Redrob AI Track 1 candidate ranking challenge.
-
-## Overview
-This repository ranks candidate profiles based on core AI retrieval skills, production shipping experience, evaluation framework knowledge, Python architectures, and behavioral metrics. 
-
-**Synthetic Cluster Note:** The benchmark contains repeated high-fit candidate templates, so top candidates may share identical score/reasoning; deterministic `candidate_id` tie-break is used.
+RedrobRank is a 10-stage deterministic scoring engine designed to efficiently process and rank candidates for the Senior AI Engineer role at Redrob AI. It features a robust Lexical TF-IDF module, Reciprocal Rank Fusion (RRF), and hard disqualifiers to ensure complete factual grounding without hallucination.
 
 ## Final Deliverables
-* `submissions/submission.csv` (The ranked output of exactly 100 candidates)
-* `docs/RedrobRank_Methodology.pdf` (The methodology and system architecture report)
 
-*Note: No raw dataset is included in this repository to protect data privacy.*
+* `submissions/submission.csv`
+* `docs/RedrobRank_Methodology.pdf`
 
-## Security & Architecture
-* **CPU-only:** Executes fully locally.
-* **No external LLM/API calls:** Secure and offline.
-* **No secrets/API keys:** None required or tracked.
-* **No raw dataset committed:** Protected information remains strictly local.
-* **Static Dashboard:** The dashboard is a static/local report viewer only and exposes no backend API. (Express is used strictly by Vite dev middleware for local preview of generated JSONs).
+*Note: The raw dataset is not included in this repository to protect privacy and comply with competition security standards.*
 
-## Run Instructions
+## How to run
 
-### Rank Candidates
 ```bash
 python3 rank.py --candidates data/candidates.jsonl --out submissions/submission.csv
 ```
 
-### Validate Submission
+## How to validate
+
 ```bash
 python3 validate_submission.py submissions/submission.csv
 python3 -m src.redrob_ranker.validation --candidates data/candidates.jsonl --submission submissions/submission.csv
 ```
 
-### Run Local Dashboard Viewer
+## How to run dashboard
+
 ```bash
 npm install
 npm run dev
 ```
 
-## Running Tests
-```bash
-pytest
-```
+## Security
+
+* **CPU-only:** The engine operates securely without the need for GPU acceleration.
+* **No external LLM/API calls:** Ensures zero data leakage and deterministic performance.
+* **No secrets:** The codebase contains no hidden API keys or passwords.
+* **No raw dataset committed:** Only a tiny sample dataset is included.
+* **Dashboard is static/local:** The RecruiterOps dashboard is purely a local report viewer.

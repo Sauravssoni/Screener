@@ -1,1 +1,14 @@
-pytest==8.0.0
+psutil
+numpy
+scikit-learn
+pandas
+streamlit
+pytest
+coverage
+ruff
+reportlab
+bandit
+pip-audit
+radon
+vulture
+deptry
