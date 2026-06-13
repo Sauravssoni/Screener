@@ -106,6 +106,8 @@ Candidate JSONL
 
 ## Dashboard / Sandbox
 
+![RedrobRank RecruiterOS Console](docs/dashboard_preview.png)
+
 * React/Vite dashboard is a local report viewer
 * no backend database needed
 * reads deterministic JSON artifacts in `/reports`
